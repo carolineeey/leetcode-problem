@@ -1,6 +1,6 @@
-package main
+package solution
 
-func twoSumV1(nums []int, target int) (result []int) {
+func TwoSumV1(nums []int, target int) (result []int) {
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {
 			if nums[i]+nums[j] == target {
@@ -12,7 +12,7 @@ func twoSumV1(nums []int, target int) (result []int) {
 	return result
 }
 
-func twoSumV2(nums []int, target int) (result []int) {
+func TwoSumV2(nums []int, target int) (result []int) {
 	numIndices := make(map[int]int)
 	for i, num := range nums {
 		complement := target - num
