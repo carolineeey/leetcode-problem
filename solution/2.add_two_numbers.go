@@ -14,8 +14,10 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	carry := 0
 
 	for l1 != nil || l2 != nil {
+		// initiate sum
 		sum := carry + 0
 
+		// continuing as long as there is next node
 		if l1 != nil {
 			sum += l1.Val
 			l1 = l1.Next
@@ -26,9 +28,13 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 			l2 = l2.Next
 		}
 
+		// get the value to carry over to the next node
 		carry = sum / 10
+
+		// get the sum of the node
 		sum = sum % 10
 
+		// assign value to the next node
 		pointer.Next = &ListNode{Val: sum}
 		pointer = pointer.Next
 	}
