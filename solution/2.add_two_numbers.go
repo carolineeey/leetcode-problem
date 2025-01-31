@@ -1,7 +1,5 @@
 package solution
 
-import "fmt"
-
 // ListNode is the definition for singly-linked list.
 type ListNode struct {
 	Val  int
@@ -22,16 +20,14 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 			sum += l1.Val
 			l1 = l1.Next
 		}
-		fmt.Println("sum l1", sum)
+
 		if l2 != nil {
 			sum += l2.Val
 			l2 = l2.Next
 		}
-		fmt.Println("sum l2", sum)
 
 		carry = sum / 10
 		sum = sum % 10
-		fmt.Println("sum", sum, "carry", carry)
 
 		pointer.Next = &ListNode{Val: sum}
 		pointer = pointer.Next
