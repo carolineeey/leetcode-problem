@@ -11,8 +11,8 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		Val: 0,
 	}
 	pointer := result
-
 	carry := 0
+
 	for l1 != nil || l2 != nil {
 		sum := carry + 0
 
