@@ -37,16 +37,23 @@ func main() {
 	//fmt.Println(list)
 
 	// 3. Longest Substring Without Repeating Characters
-	length := solution.LengthOfLongestSubstring("pwwkew")
-	fmt.Println(length)
+	//length := solution.LengthOfLongestSubstring("pwwkew")
+	//fmt.Println(length)
 
 	//// 9. Palindrome Number
 	//isp := solution.IsPalindrome(123211)
 	//fmt.Println(isp)
 	//
+
+	// 13. Roman to Integer
+	//val := solution.RomanToInt("MDCCLXXIV")
+	//fmt.Println(val)
 	//// 26. Remove duplicates from Sorted Array
 	//nums = []int{5, 2, 3, 2, 4, 4}
 	//length := solution.RemoveDuplicates(nums)
 	//fmt.Println(length)
 
+	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
+	length := solution.RemoveElement(nums, 2)
+	fmt.Println(length)
 }
