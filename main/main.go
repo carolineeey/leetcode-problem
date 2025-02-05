@@ -48,9 +48,12 @@ func main() {
 	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
+	// 17. Letter Combinations of a Phone Number
+	combinations := solution.LetterCombinations("234")
+	fmt.Println(combinations)
 	// 20. Valid parentheses
-	isValid := solution.IsValid("()[]{(]}")
-	fmt.Println(isValid)
+	//isValid := solution.IsValid("()[]{(]}")
+	//fmt.Println(isValid)
 
 	//// 26. Remove duplicates from Sorted Array
 	//nums = []int{5, 2, 3, 2, 4, 4}
