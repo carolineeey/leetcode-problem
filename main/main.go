@@ -40,10 +40,10 @@ func main() {
 	//length := solution.LengthOfLongestSubstring("pwwkew")
 	//fmt.Println(length)
 	// 4. Median of Two Sorted Arrays
-	firstArray := []int{7, 5, 6, 8}
-	secondArray := []int{1, 2, 3, 4}
-	median := solution.FindMedianSortedArrays(firstArray, secondArray)
-	fmt.Println(median)
+	//firstArray := []int{7, 5, 6, 8}
+	//secondArray := []int{1, 2, 3, 4}
+	//median := solution.FindMedianSortedArrays(firstArray, secondArray)
+	//fmt.Println(median)
 	//// 9. Palindrome Number
 	//isp := solution.IsPalindrome(123211)
 	//fmt.Println(isp)
@@ -64,7 +64,11 @@ func main() {
 	//length := solution.RemoveDuplicates(nums)
 	//fmt.Println(length)
 
+	// 27. Remove Element
 	//nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
 	//length := solution.RemoveElement(nums, 2)
 	//fmt.Println(length)
+	// 28. Find the Index of the First Occurrence in a String
+	res := solution.StrStr("sadbutsad", "sad")
+	fmt.Println(res)
 }
