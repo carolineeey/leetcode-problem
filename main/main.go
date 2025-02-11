@@ -35,7 +35,6 @@ func main() {
 	//
 	//list := solution.AddTwoNumbers(l1, l2)
 	//fmt.Println(list)
-
 	// 3. Longest Substring Without Repeating Characters
 	//length := solution.LengthOfLongestSubstring("pwwkew")
 	//fmt.Println(length)
@@ -48,7 +47,8 @@ func main() {
 	//isp := solution.IsPalindrome(123211)
 	//fmt.Println(isp)
 	//
-
+	//5. Longest Palindromic Substring
+	fmt.Println(solution.LongestPalindrome("abaabsa"))
 	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
@@ -69,6 +69,6 @@ func main() {
 	//length := solution.RemoveElement(nums, 2)
 	//fmt.Println(length)
 	// 28. Find the Index of the First Occurrence in a String
-	res := solution.StrStr("sadbutsad", "sad")
-	fmt.Println(res)
+	//res := solution.StrStr("sadbutsad", "sad")
+	//fmt.Println(res)
 }
