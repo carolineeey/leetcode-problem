@@ -49,6 +49,10 @@ func main() {
 	//
 	//5. Longest Palindromic Substring
 	fmt.Println(solution.LongestPalindrome("abaabsa"))
+
+	//8. String to Integer (atoi)
+	fmt.Println(solution.MyAtoi("-010234"))
+
 	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
