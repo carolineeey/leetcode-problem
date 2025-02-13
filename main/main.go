@@ -56,6 +56,8 @@ func main() {
 	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
+	// 14. Longest Common Prefix
+	fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	// 17. Letter Combinations of a Phone Number
 	//combinations := solution.LetterCombinations("234")
 	//fmt.Println(combinations)
