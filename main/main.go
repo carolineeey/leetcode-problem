@@ -48,28 +48,24 @@ func main() {
 	//fmt.Println(isp)
 	//
 	//5. Longest Palindromic Substring
-	fmt.Println(solution.LongestPalindrome("abaabsa"))
-
+	//fmt.Println(solution.LongestPalindrome("abaabsa"))
 	//8. String to Integer (atoi)
-	fmt.Println(solution.MyAtoi("-010234"))
-
+	//fmt.Println(solution.MyAtoi("-010234"))
 	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
 	// 14. Longest Common Prefix
-	fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
+	//fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	// 17. Letter Combinations of a Phone Number
 	//combinations := solution.LetterCombinations("234")
 	//fmt.Println(combinations)
 	// 20. Valid parentheses
 	//isValid := solution.IsValid("()[]{(]}")
 	//fmt.Println(isValid)
-
 	//// 26. Remove duplicates from Sorted Array
 	//nums = []int{5, 2, 3, 2, 4, 4}
 	//length := solution.RemoveDuplicates(nums)
 	//fmt.Println(length)
-
 	// 27. Remove Element
 	//nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
 	//length := solution.RemoveElement(nums, 2)
@@ -77,4 +73,6 @@ func main() {
 	// 28. Find the Index of the First Occurrence in a String
 	//res := solution.StrStr("sadbutsad", "sad")
 	//fmt.Println(res)
+	// 35. Search Insert Position
+	fmt.Println(solution.SearchInsert([]int{1}, 1))
 }
