@@ -74,5 +74,7 @@ func main() {
 	//res := solution.StrStr("sadbutsad", "sad")
 	//fmt.Println(res)
 	// 35. Search Insert Position
-	fmt.Println(solution.SearchInsert([]int{1}, 1))
+	//fmt.Println(solution.SearchInsert([]int{1}, 1))
+	// 58. Length of Last Word
+	fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 }
