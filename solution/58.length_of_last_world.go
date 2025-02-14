@@ -1,5 +1,7 @@
 package solution
 
+import "strings"
+
 func LengthOfLastWord(s string) int {
 	ptr := len(s) - 1
 	length := 0
@@ -16,4 +18,10 @@ func LengthOfLastWord(s string) int {
 	}
 
 	return length
+}
+
+func lengthOfLastWord(s string) int {
+	words := strings.Fields(s)
+
+	return len(words[len(words)-1])
 }
