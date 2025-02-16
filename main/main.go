@@ -76,5 +76,7 @@ func main() {
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
-	fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
+	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
+	// 70. Climbing Stairs
+	fmt.Println(solution.ClimbStairs(2))
 }
