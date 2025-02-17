@@ -43,15 +43,15 @@ func main() {
 	//secondArray := []int{1, 2, 3, 4}
 	//median := solution.FindMedianSortedArrays(firstArray, secondArray)
 	//fmt.Println(median)
-	//// 9. Palindrome Number
-	//isp := solution.IsPalindrome(123211)
-	//fmt.Println(isp)
-	//
-	//5. Longest Palindromic Substring
+	// 5. Longest Palindromic Substring
 	//fmt.Println(solution.LongestPalindrome("abaabsa"))
-	//8. String to Integer (atoi)
+	// 6. Zigzag conversion
+	fmt.Println(solution.Convert("PAYPALISHITING", 4))
+	// 8. String to Integer (atoi)
 	//fmt.Println(solution.MyAtoi("-010234"))
-	// 13. Roman to Integer
+	// 9. Palindrome Number
+	//isp := solution.IsPalindrome(123211)
+	//fmt.Println(isp)	// 13. Roman to Integer
 	//val := solution.RomanToInt("MDCCLXXIV")
 	//fmt.Println(val)
 	// 14. Longest Common Prefix
@@ -78,5 +78,5 @@ func main() {
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
-	fmt.Println(solution.ClimbStairs(2))
+	//fmt.Println(solution.ClimbStairs(2))
 }
