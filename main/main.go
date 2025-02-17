@@ -50,10 +50,9 @@ func main() {
 	// 8. String to Integer (atoi)
 	//fmt.Println(solution.MyAtoi("-010234"))
 	// 9. Palindrome Number
-	//isp := solution.IsPalindrome(123211)
-	//fmt.Println(isp)	// 13. Roman to Integer
-	//val := solution.RomanToInt("MDCCLXXIV")
-	//fmt.Println(val)
+	//fmt.Println(solution.IsPalindrome(12321))
+	// 13. Roman to Integer
+	//fmt.Println(solution.RomanToInt("MDCCLXXV"))
 	// 14. Longest Common Prefix
 	//fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	// 17. Letter Combinations of a Phone Number
