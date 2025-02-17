@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"github.com/carolineeey/leetcode-problem/solution"
-)
-
 func main() {
 	////1. Two Sum
 	//nums := []int{3, 2, 4}
@@ -46,7 +41,7 @@ func main() {
 	// 5. Longest Palindromic Substring
 	//fmt.Println(solution.LongestPalindrome("abaabsa"))
 	// 6. Zigzag conversion
-	fmt.Println(solution.Convert("PAYPALISHITING", 4))
+	//fmt.Println(solution.Convert("PAYPALISHITING", 4))
 	// 8. String to Integer (atoi)
 	//fmt.Println(solution.MyAtoi("-010234"))
 	// 9. Palindrome Number
@@ -56,8 +51,7 @@ func main() {
 	// 14. Longest Common Prefix
 	//fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	// 17. Letter Combinations of a Phone Number
-	//combinations := solution.LetterCombinations("234")
-	//fmt.Println(combinations)
+	//fmt.Println(solution.LetterCombinations("234"))
 	// 20. Valid parentheses
 	//isValid := solution.IsValid("()[]{(]}")
 	//fmt.Println(isValid)
