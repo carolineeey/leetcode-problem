@@ -46,13 +46,15 @@ func main() {
 	// 5. Longest Palindromic Substring
 	//fmt.Println(solution.LongestPalindrome("abaabsa"))
 	// 6. Zigzag conversion
-	fmt.Println(solution.Convert("PAYPALISHITING", 4))
+	//fmt.Println(solution.Convert("PAYPALISHITING", 4))
 	// 7. Reverse Integer
-	fmt.Println(solution.Reverse(-321))
+	//fmt.Println(solution.Reverse(-321))
 	// 8. String to Integer (atoi)
 	//fmt.Println(solution.MyAtoi("-010234"))
 	// 9. Palindrome Number
 	//fmt.Println(solution.IsPalindrome(12321))
+	// 12. Integer to Roman
+	fmt.Println(solution.IntToRoman(1206))
 	// 13. Roman to Integer
 	//fmt.Println(solution.RomanToInt("MDCCLXXV"))
 	// 14. Longest Common Prefix
