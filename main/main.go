@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"github.com/carolineeey/leetcode-problem/solution"
+)
+
 func main() {
 	////1. Two Sum
 	//nums := []int{3, 2, 4}
@@ -41,7 +46,9 @@ func main() {
 	// 5. Longest Palindromic Substring
 	//fmt.Println(solution.LongestPalindrome("abaabsa"))
 	// 6. Zigzag conversion
-	//fmt.Println(solution.Convert("PAYPALISHITING", 4))
+	fmt.Println(solution.Convert("PAYPALISHITING", 4))
+	// 7. Reverse Integer
+	fmt.Println(solution.Reverse(-321))
 	// 8. String to Integer (atoi)
 	//fmt.Println(solution.MyAtoi("-010234"))
 	// 9. Palindrome Number
