@@ -68,11 +68,10 @@ func main() {
 	// 17. Letter Combinations of a Phone Number
 	//fmt.Println(solution.LetterCombinations("234"))
 	// 20. Valid parentheses
-	fmt.Println(solution.IsValid("()[]{()}"))
+	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 26. Remove duplicates from Sorted Array
-	//nums = []int{5, 2, 3, 2, 4, 4}
-	//length := solution.RemoveDuplicates(nums)
-	//fmt.Println(length)
+	nums := []int{5, 2, 3, 2, 4, 4}
+	fmt.Println(solution.RemoveDuplicates(nums))
 	// 27. Remove Element
 	//nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
 	//length := solution.RemoveElement(nums, 2)
