@@ -64,13 +64,12 @@ func main() {
 	// 15. 3Sum
 	//fmt.Println(solution.ThreeSum([]int{-1, 0, 1, 2, -1, -4}))
 	// 16. 3Sum Closest
-	fmt.Println(solution.ThreeSumClosest([]int{10, 20, 30, 40, 50, 60, 70, 80, 90}, 1))
+	//fmt.Println(solution.ThreeSumClosest([]int{10, 20, 30, 40, 50, 60, 70, 80, 90}, 1))
 	// 17. Letter Combinations of a Phone Number
 	//fmt.Println(solution.LetterCombinations("234"))
 	// 20. Valid parentheses
-	//isValid := solution.IsValid("()[]{(]}")
-	//fmt.Println(isValid)
-	//// 26. Remove duplicates from Sorted Array
+	fmt.Println(solution.IsValid("()[]{()}"))
+	// 26. Remove duplicates from Sorted Array
 	//nums = []int{5, 2, 3, 2, 4, 4}
 	//length := solution.RemoveDuplicates(nums)
 	//fmt.Println(length)
