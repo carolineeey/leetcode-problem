@@ -62,7 +62,7 @@ func main() {
 	// 14. Longest Common Prefix
 	//fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	// 15. 3Sum
-	fmt.Println(solution.ThreeSum([]int{-1, 0, 1, 2, -1, -4}))
+	//fmt.Println(solution.ThreeSum([]int{-1, 0, 1, 2, -1, -4}))
 	// 16. 3Sum Closest
 	fmt.Println(solution.ThreeSumClosest([]int{10, 20, 30, 40, 50, 60, 70, 80, 90}, 1))
 	// 17. Letter Combinations of a Phone Number
