@@ -54,13 +54,15 @@ func main() {
 	// 9. Palindrome Number
 	//fmt.Println(solution.IsPalindrome(12321))
 	// 11. Container with Most Water
-	fmt.Println(solution.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
+	//fmt.Println(solution.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
 	// 12. Integer to Roman
 	//fmt.Println(solution.IntToRoman(1206))
 	// 13. Roman to Integer
 	//fmt.Println(solution.RomanToInt("MDCCLXXV"))
 	// 14. Longest Common Prefix
 	//fmt.Println(solution.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
+	// 15. 3Sum
+	fmt.Println(solution.ThreeSum([]int{-1, 0, 1, 2, -1, -4}))
 	// 17. Letter Combinations of a Phone Number
 	//fmt.Println(solution.LetterCombinations("234"))
 	// 20. Valid parentheses
