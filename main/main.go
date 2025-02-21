@@ -70,8 +70,7 @@ func main() {
 	// 20. Valid parentheses
 	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 26. Remove duplicates from Sorted Array
-	nums := []int{5, 2, 3, 2, 4, 4}
-	fmt.Println(solution.RemoveDuplicates(nums))
+	fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
 	//nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
 	//length := solution.RemoveElement(nums, 2)
