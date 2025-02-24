@@ -67,6 +67,8 @@ func main() {
 	//fmt.Println(solution.ThreeSumClosest([]int{10, 20, 30, 40, 50, 60, 70, 80, 90}, 1))
 	// 17. Letter Combinations of a Phone Number
 	//fmt.Println(solution.LetterCombinations("234"))
+	// 18. 4Sum
+	fmt.Println(solution.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
 	// 20. Valid parentheses
 	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 26. Remove duplicates from Sorted Array
