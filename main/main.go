@@ -72,9 +72,8 @@ func main() {
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
-	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
-	length := solution.RemoveElement(nums, 2)
-	fmt.Println(length)
+	nums := []int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}
+	fmt.Println(solution.RemoveElement(nums, 2))
 	// 28. Find the Index of the First Occurrence in a String
 	//res := solution.StrStr("sadbutsad", "sad")
 	//fmt.Println(res)
