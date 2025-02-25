@@ -68,14 +68,31 @@ func main() {
 	// 17. Letter Combinations of a Phone Number
 	//fmt.Println(solution.LetterCombinations("234"))
 	// 18. 4Sum
-	fmt.Println(solution.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
+	//fmt.Println(solution.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
+	// 19. Remove Nth Node From End of List
+	l := &solution.ListNode{
+		Val: 1,
+		Next: &solution.ListNode{
+			Val: 2,
+			Next: &solution.ListNode{
+				Val: 3,
+				Next: &solution.ListNode{
+					Val: 4,
+					Next: &solution.ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
+	}
+	fmt.Println(solution.RemoveNthFromEnd(l, 2))
 	// 20. Valid parentheses
 	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
-	nums := []int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}
-	fmt.Println(solution.RemoveElement(nums, 2))
+	//nums := []int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}
+	//fmt.Println(solution.RemoveElement(nums, 2))
 	// 28. Find the Index of the First Occurrence in a String
 	//res := solution.StrStr("sadbutsad", "sad")
 	//fmt.Println(res)
