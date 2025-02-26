@@ -30,10 +30,8 @@ func main() {
 			},
 		},
 	}
-	////1. Two Sum
-	nums := []int{3, 2, 4}
-	target := 6
-	fmt.Println(solution.TwoSumV2(nums, target))
+	//1. Two Sum
+	fmt.Println(solution.TwoSumV2([]int{3, 2, 4}, 6))
 	//
 	//// 2. Add two numbers
 	//fmt.Println("AddTwoNumbers", solution.AddTwoNumbers(l1, l2))
