@@ -37,26 +37,8 @@ func main() {
 	//fmt.Println(result)
 	//
 	//// 2. Add two numbers
-	//l1 := &solution.ListNode{
-	//	Val: 4,
-	//	Next: &solution.ListNode{
-	//		Val: 2,
-	//		Next: &solution.ListNode{
-	//			Val: 3,
-	//		},
-	//	},
-	//}
-	//
-	//l2 := &solution.ListNode{
-	//	Val: 2,
-	//	Next: &solution.ListNode{
-	//		Val: 1,
-	//		Next: &solution.ListNode{
-	//			Val: 5,
-	//		},
-	//	},
-	//}
-	//fmt.Println(solution.AddTwoNumbers(l1, l2))
+
+	fmt.Println("AddTwoNumbers", solution.AddTwoNumbers(l1, l2))
 	// 3. Longest Substring Without Repeating Characters
 	//fmt.Println(solution.LengthOfLongestSubstring("pwwkew"))
 	// 4. Median of Two Sorted Arrays
@@ -101,7 +83,7 @@ func main() {
 	// 27. Remove Element
 	//fmt.Println(solution.RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}, 2))
 	// 28. Find the Index of the First Occurrence in a String
-	fmt.Println(solution.StrStr("sadbutsad", "but"))
+	//fmt.Println(solution.StrStr("sadbutsad", "but"))
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
