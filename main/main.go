@@ -31,7 +31,7 @@ func main() {
 		},
 	}
 	//1. Two Sum
-	fmt.Println(solution.TwoSumV2([]int{3, 2, 4}, 6))
+	//fmt.Println(solution.TwoSumV2([]int{3, 2, 4}, 6))
 	//
 	//// 2. Add two numbers
 	//fmt.Println("AddTwoNumbers", solution.AddTwoNumbers(l1, l2))
@@ -74,6 +74,8 @@ func main() {
 	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 21. Merge Two Sorted Lists
 	fmt.Println(solution.MergeTwoLists(l1, l2))
+	// 22. Generate Parentheses
+	fmt.Println(solution.GenerateParenthesis(4))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
