@@ -101,7 +101,6 @@ func main() {
 	// 27. Remove Element
 	//fmt.Println(solution.RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}, 2))
 	// 28. Find the Index of the First Occurrence in a String
-	//res :=
 	fmt.Println(solution.StrStr("sadbutsad", "but"))
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
