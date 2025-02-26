@@ -56,12 +56,9 @@ func main() {
 	//		},
 	//	},
 	//}
-	//
-	//list :=
-	fmt.Println(solution.AddTwoNumbers(l1, l2))
+	//fmt.Println(solution.AddTwoNumbers(l1, l2))
 	// 3. Longest Substring Without Repeating Characters
-	//length := solution.LengthOfLongestSubstring("pwwkew")
-	//fmt.Println(length)
+	//fmt.Println(solution.LengthOfLongestSubstring("pwwkew"))
 	// 4. Median of Two Sorted Arrays
 	//firstArray := []int{7, 5, 6, 8}
 	//secondArray := []int{1, 2, 3, 4}
