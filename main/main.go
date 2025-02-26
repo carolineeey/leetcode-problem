@@ -6,6 +6,30 @@ import (
 )
 
 func main() {
+	l1 := &solution.ListNode{
+		Val: 1,
+		Next: &solution.ListNode{
+			Val: 2,
+			Next: &solution.ListNode{
+				Val: 3,
+				Next: &solution.ListNode{
+					Val: 4,
+				},
+			},
+		},
+	}
+	l2 := &solution.ListNode{
+		Val: 5,
+		Next: &solution.ListNode{
+			Val: 7,
+			Next: &solution.ListNode{
+				Val: 2,
+				Next: &solution.ListNode{
+					Val: 6,
+				},
+			},
+		},
+	}
 	////1. Two Sum
 	//nums := []int{3, 2, 4}
 	//target := 6
@@ -33,8 +57,8 @@ func main() {
 	//	},
 	//}
 	//
-	//list := solution.AddTwoNumbers(l1, l2)
-	//fmt.Println(list)
+	//list :=
+	fmt.Println(solution.AddTwoNumbers(l1, l2))
 	// 3. Longest Substring Without Repeating Characters
 	//length := solution.LengthOfLongestSubstring("pwwkew")
 	//fmt.Println(length)
@@ -70,24 +94,11 @@ func main() {
 	// 18. 4Sum
 	//fmt.Println(solution.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
 	// 19. Remove Nth Node From End of List
-	l := &solution.ListNode{
-		Val: 1,
-		Next: &solution.ListNode{
-			Val: 2,
-			Next: &solution.ListNode{
-				Val: 3,
-				Next: &solution.ListNode{
-					Val: 4,
-					Next: &solution.ListNode{
-						Val: 5,
-					},
-				},
-			},
-		},
-	}
-	fmt.Println(solution.RemoveNthFromEnd(l, 2))
+	//fmt.Println(solution.RemoveNthFromEnd(l, 2))
 	// 20. Valid parentheses
 	//fmt.Println(solution.IsValid("()[]{()}"))
+	// 21. Merge Two Sorted Lists
+	fmt.Println(solution.MergeTwoLists(l1, l2))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
