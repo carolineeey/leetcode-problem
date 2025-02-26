@@ -31,14 +31,12 @@ func main() {
 		},
 	}
 	////1. Two Sum
-	//nums := []int{3, 2, 4}
-	//target := 6
-	//result := solution.TwoSumV2(nums, target)
-	//fmt.Println(result)
+	nums := []int{3, 2, 4}
+	target := 6
+	fmt.Println(solution.TwoSumV2(nums, target))
 	//
 	//// 2. Add two numbers
-
-	fmt.Println("AddTwoNumbers", solution.AddTwoNumbers(l1, l2))
+	//fmt.Println("AddTwoNumbers", solution.AddTwoNumbers(l1, l2))
 	// 3. Longest Substring Without Repeating Characters
 	//fmt.Println(solution.LengthOfLongestSubstring("pwwkew"))
 	// 4. Median of Two Sorted Arrays
