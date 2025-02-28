@@ -88,6 +88,8 @@ func main() {
 	//fmt.Println(solution.StrStr("sadbutsad", "but"))
 	// 29. Divide Two Integers
 	fmt.Println(solution.Divide(10, 3))
+	// 31. Next Permutation
+	solution.NextPermutation([]int{1, 2, 3})
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
