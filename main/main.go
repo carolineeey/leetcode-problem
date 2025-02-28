@@ -73,9 +73,13 @@ func main() {
 	// 20. Valid parentheses
 	//fmt.Println(solution.IsValid("()[]{()}"))
 	// 21. Merge Two Sorted Lists
-	fmt.Println(solution.MergeTwoLists(l1, l2))
+	//fmt.Println(solution.MergeTwoLists(l1, l2))
 	// 22. Generate Parentheses
-	fmt.Println(solution.GenerateParenthesis(4))
+	//fmt.Println(solution.GenerateParenthesis(4))
+	// 23. Merge k Sorted Lists
+	fmt.Println(solution.MergeKLists([]*solution.ListNode{l1, l2}))
+	// 24. Swap Nodes in Pairs
+	//fmt.Println(solution.SwapPairs(l1))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
