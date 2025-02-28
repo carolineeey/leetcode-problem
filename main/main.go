@@ -18,18 +18,18 @@ func main() {
 			},
 		},
 	}
-	l2 := &solution.ListNode{
-		Val: 5,
-		Next: &solution.ListNode{
-			Val: 7,
-			Next: &solution.ListNode{
-				Val: 2,
-				Next: &solution.ListNode{
-					Val: 6,
-				},
-			},
-		},
-	}
+	//l2 := &solution.ListNode{
+	//	Val: 5,
+	//	Next: &solution.ListNode{
+	//		Val: 7,
+	//		Next: &solution.ListNode{
+	//			Val: 2,
+	//			Next: &solution.ListNode{
+	//				Val: 6,
+	//			},
+	//		},
+	//	},
+	//}
 	//1. Two Sum
 	//fmt.Println(solution.TwoSumV2([]int{3, 2, 4}, 6))
 	//
@@ -77,9 +77,9 @@ func main() {
 	// 22. Generate Parentheses
 	//fmt.Println(solution.GenerateParenthesis(4))
 	// 23. Merge k Sorted Lists
-	fmt.Println(solution.MergeKLists([]*solution.ListNode{l1, l2}))
+	//fmt.Println(solution.MergeKLists([]*solution.ListNode{l1, l2}))
 	// 24. Swap Nodes in Pairs
-	//fmt.Println(solution.SwapPairs(l1))
+	fmt.Println(solution.SwapPairs(l1))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
