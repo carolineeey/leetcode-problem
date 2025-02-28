@@ -6,18 +6,18 @@ import (
 )
 
 func main() {
-	l1 := &solution.ListNode{
-		Val: 1,
-		Next: &solution.ListNode{
-			Val: 2,
-			Next: &solution.ListNode{
-				Val: 3,
-				Next: &solution.ListNode{
-					Val: 4,
-				},
-			},
-		},
-	}
+	//l1 := &solution.ListNode{
+	//	Val: 1,
+	//	Next: &solution.ListNode{
+	//		Val: 2,
+	//		Next: &solution.ListNode{
+	//			Val: 3,
+	//			Next: &solution.ListNode{
+	//				Val: 4,
+	//			},
+	//		},
+	//	},
+	//}
 	//l2 := &solution.ListNode{
 	//	Val: 5,
 	//	Next: &solution.ListNode{
@@ -79,13 +79,15 @@ func main() {
 	// 23. Merge k Sorted Lists
 	//fmt.Println(solution.MergeKLists([]*solution.ListNode{l1, l2}))
 	// 24. Swap Nodes in Pairs
-	fmt.Println(solution.SwapPairs(l1))
+	//fmt.Println(solution.SwapPairs(l1))
 	// 26. Remove duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates([]int{5, 2, 3, 2, 1, 4, 4}))
 	// 27. Remove Element
 	//fmt.Println(solution.RemoveElement([]int{0, 1, 2, 2, 3, 0, 4, 8, 2, 2}, 2))
 	// 28. Find the Index of the First Occurrence in a String
 	//fmt.Println(solution.StrStr("sadbutsad", "but"))
+	// 29. Divide Two Integers
+	fmt.Println(solution.Divide(10, 3))
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
