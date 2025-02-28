@@ -6,11 +6,10 @@ func SwapPairs(head *ListNode) *ListNode {
 	dummy.Next = head
 	point := dummy
 
-	// traverse the list in pairs
-	for head.Next != nil && head.Next.Next != nil {
-		// identify the two nodes to identify
-		swap1 := head.Next
-		swap2 := head.Next.Next
+	for point.Next != nil && point.Next.Next != nil {
+		// identify the two nodes to swap
+		swap1 := point.Next
+		swap2 := point.Next.Next
 
 		// perform the swap
 		swap1.Next = swap2.Next
