@@ -87,9 +87,11 @@ func main() {
 	// 28. Find the Index of the First Occurrence in a String
 	//fmt.Println(solution.StrStr("sadbutsad", "but"))
 	// 29. Divide Two Integers
-	fmt.Println(solution.Divide(10, 3))
+	//fmt.Println(solution.Divide(10, 3))
 	// 31. Next Permutation
 	solution.NextPermutation([]int{1, 2, 3})
+	// 32. Longest Valid Parentheses
+	fmt.Println(solution.LongestValidParentheses(")()()("))
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
