@@ -91,7 +91,9 @@ func main() {
 	// 31. Next Permutation
 	solution.NextPermutation([]int{1, 2, 3})
 	// 32. Longest Valid Parentheses
-	fmt.Println(solution.LongestValidParentheses(")()()("))
+	//fmt.Println(solution.LongestValidParentheses(")()()("))
+	// 34. Find First and Last Position of Element in Sorted Array
+	fmt.Println(solution.SearchRange([]int{5, 7, 7, 8, 8, 10}, 6))
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 58. Length of Last Word
