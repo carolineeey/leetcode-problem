@@ -1,29 +1,42 @@
 package solution
 
-import (
-	"sort"
-)
-
 func SearchRange(nums []int, target int) []int {
-	if len(nums) == 0 {
-		return []int{-1, -1}
-	} else if len(nums) == 1 && nums[0] == target {
-		return []int{target, target}
+	first := findBound(nums, target, true)
+	if first == -1 {
+		return []int{-1, -1} //target not found
 	}
 
-	sort.Ints(nums)
+	last := findBound(nums, target, false)
 
-	result := []int{-1}
+	return []int{first, last}
+}
 
-	for i := 0; i < len(nums); i++ {
-		if nums[i] == target {
-			result = append(result, i)
+func findBound(nums []int, target int, isFirst bool) int {
+	left, right := 0, len(nums)-1
+	for left <= right {
+		mid := left + (right-left)/2
+		if nums[mid] == target {
+			if isFirst {
+				// check if it's first occurrence
+				if mid == left || nums[mid-1] != target {
+					return mid
+				}
+
+				right = mid - 1
+			} else {
+				// check if it's the last occurrence
+				if mid == right || nums[mid+1] != target {
+					return mid
+				}
+
+				left = mid + 1
+			}
+		} else if nums[mid] < target {
+			left = mid + 1
+		} else {
+			right = mid - 1
 		}
 	}
 
-	if len(result) == 1 {
-		return []int{-1, -1}
-	}
-
-	return result[1:len(result)]
+	return -1
 }
