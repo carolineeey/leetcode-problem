@@ -111,6 +111,8 @@ func main() {
 		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
 	}
 	fmt.Println(solution.IsValidSudoku(board))
+	// 37. Sudoku Solver
+	solution.SolveSudoku(board)
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
