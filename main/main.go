@@ -114,7 +114,10 @@ func main() {
 	// 37. Sudoku Solver
 	solution.SolveSudoku(board)
 	// 39. Combination Sum
-	fmt.Println(solution.CombinationSum([]int{2, 3, 6, 7}, 7))
+	fmt.Println(solution.CombinationSum([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	// 40. Combination Sum II
+	fmt.Println()
+	fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
