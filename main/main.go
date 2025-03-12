@@ -118,6 +118,8 @@ func main() {
 	// 40. Combination Sum II
 	fmt.Println()
 	fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	// 43. Multiply Strings
+	fmt.Println(solution.Multiply("4", "3"))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
