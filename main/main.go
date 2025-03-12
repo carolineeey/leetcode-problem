@@ -89,7 +89,7 @@ func main() {
 	// 29. Divide Two Integers
 	//fmt.Println(solution.Divide(10, 3))
 	// 31. Next Permutation
-	solution.NextPermutation([]int{1, 2, 3})
+	//solution.NextPermutation([]int{1, 2, 3})
 	// 32. Longest Valid Parentheses
 	//fmt.Println(solution.LongestValidParentheses(")()()("))
 	// 33. Search in Rotated Sorted Array
@@ -110,14 +110,14 @@ func main() {
 		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
 		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
 	}
-	fmt.Println(solution.IsValidSudoku(board))
+	//fmt.Println(solution.IsValidSudoku(board))
 	// 37. Sudoku Solver
 	solution.SolveSudoku(board)
 	// 39. Combination Sum
-	fmt.Println(solution.CombinationSum([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	//fmt.Println(solution.CombinationSum([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 40. Combination Sum II
-	fmt.Println()
-	fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
+	//fmt.Println()
+	//fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 43. Multiply Strings
 	fmt.Println(solution.Multiply("4", "3"))
 	// 44. Wildcard Match
