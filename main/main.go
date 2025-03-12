@@ -122,6 +122,8 @@ func main() {
 	fmt.Println(solution.Multiply("4", "3"))
 	// 44. Wildcard Match
 	fmt.Println(solution.IsMatch("aa", "*"))
+	// 45. Jump Game 2
+	fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
