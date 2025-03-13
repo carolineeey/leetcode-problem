@@ -124,8 +124,10 @@ func main() {
 	fmt.Println(solution.IsMatch("aa", "*"))
 	// 45. Jump Game 2
 	fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
+	// 46. Permutations
+	fmt.Println(solution.Permute([]int{0, 1, 2}))
 	// 55. Jump Game
-	fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
+	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 70. Climbing Stairs
