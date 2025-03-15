@@ -127,7 +127,9 @@ func main() {
 	// 46. Permutations
 	fmt.Println(solution.Permute([]int{1, 1, 2}))
 	// 47. Permutations
-	fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
+	//fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
+	// 48. Rotate Image
+	solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
