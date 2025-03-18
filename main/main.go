@@ -130,6 +130,8 @@ func main() {
 	//fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
 	// 48. Rotate Image
 	solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
+	// 49. Group Anagrams
+	fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
@@ -137,5 +139,5 @@ func main() {
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
-	fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
+	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 }
