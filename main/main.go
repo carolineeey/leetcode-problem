@@ -121,11 +121,11 @@ func main() {
 	// 43. Multiply Strings
 	//fmt.Println(solution.Multiply("4", "3"))
 	// 44. Wildcard Match
-	fmt.Println(solution.IsMatch("aa", "*"))
+	//fmt.Println(solution.IsMatch("aa", "*"))
 	// 45. Jump Game 2
-	fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
+	//fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
 	// 46. Permutations
-	fmt.Println(solution.Permute([]int{1, 1, 2}))
+	//fmt.Println(solution.Permute([]int{1, 1, 2}))
 	// 47. Permutations
 	//fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
 	// 48. Rotate Image
