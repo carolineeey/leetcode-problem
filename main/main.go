@@ -131,7 +131,7 @@ func main() {
 	// 48. Rotate Image
 	solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	// 49. Group Anagrams
-	//fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
+	fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
