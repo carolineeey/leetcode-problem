@@ -140,6 +140,8 @@ func main() {
 	//fmt.Println(solution.ClimbStairs(2))
 	// 242. Valid Anagram
 	fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
+	// 438. Find All Anagrams
+	fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 }
