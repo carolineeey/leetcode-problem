@@ -132,6 +132,8 @@ func main() {
 	//solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	// 49. Group Anagrams
 	//fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
+	// 50. Pow(x,n)
+	fmt.Println(solution.MyPow(2.0000, 6))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
@@ -141,9 +143,9 @@ func main() {
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 438. Find All Anagrams
-	fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
+	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 567. Permutation in String
-	fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
+	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 }
