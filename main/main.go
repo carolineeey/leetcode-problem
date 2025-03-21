@@ -151,7 +151,9 @@ func main() {
 	// 567. Permutation in String
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 633. Sum of Square Numbers
-	fmt.Println(solution.JudgeSquareSum(26))
+	//fmt.Println(solution.JudgeSquareSum(26))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
+	// 2778. Sum of Squares of Special Elements
+	fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 }
