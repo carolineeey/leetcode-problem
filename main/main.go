@@ -133,17 +133,19 @@ func main() {
 	// 49. Group Anagrams
 	//fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
 	// 50. Pow(x,n)
-	fmt.Println(solution.MyPow(2.0000, 6))
+	//fmt.Println(solution.MyPow(2.0000, 6))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 69. Sqrt(x)
-	fmt.Println(solution.MySqrt(1))
+	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
+	// 367. Is Perfect Square
+	fmt.Println(solution.IsPerfectSquare(12))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 567. Permutation in String
