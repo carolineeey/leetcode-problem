@@ -138,6 +138,8 @@ func main() {
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
+	// 69. Sqrt(x)
+	fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 242. Valid Anagram
