@@ -116,7 +116,6 @@ func main() {
 	// 39. Combination Sum
 	//fmt.Println(solution.CombinationSum([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 40. Combination Sum II
-	//fmt.Println()
 	//fmt.Println(solution.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 43. Multiply Strings
 	//fmt.Println(solution.Multiply("4", "3"))
@@ -135,7 +134,7 @@ func main() {
 	// 50. Pow(x,n)
 	//fmt.Println(solution.MyPow(2.0000, 6))
 	// 53. Max Subarray
-	fmt.Println(solution.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
+	//fmt.Println(solution.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
@@ -144,6 +143,8 @@ func main() {
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
+	// 121. Best Time to Buy and Sell Stock
+	fmt.Println(solution.MaxProfit([]int{7, 6, 4, 3, 1}))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 367. Is Perfect Square
