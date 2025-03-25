@@ -134,6 +134,8 @@ func main() {
 	//fmt.Println(solution.GroupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
 	// 50. Pow(x,n)
 	//fmt.Println(solution.MyPow(2.0000, 6))
+	// 53. Max Subarray
+	fmt.Println(solution.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 58. Length of Last Word
@@ -153,7 +155,7 @@ func main() {
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 1588. Sum of All Odd Lengths
-	fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
+	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2778. Sum of Squares of Special Elements
