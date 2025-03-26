@@ -144,7 +144,9 @@ func main() {
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 121. Best Time to Buy and Sell Stock
-	fmt.Println(solution.MaxProfit([]int{7, 6, 4, 3, 1}))
+	fmt.Println(solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
+	// 122. Best Time to Buy and Sell Stock 2
+	fmt.Println(solution.MaxProfit2([]int{7, 1, 5, 3, 6, 4}))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 367. Is Perfect Square
