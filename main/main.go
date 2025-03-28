@@ -149,6 +149,8 @@ func main() {
 	fmt.Println("max profit 2", solution.MaxProfit2([]int{7, 1, 5, 3, 6, 4}))
 	// 123. Best Time to Buy and Sell Stock 3
 	fmt.Println("max profit 3", solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
+	// 188. Best Time to Buy and Sell Stock 4
+	fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 367. Is Perfect Square
