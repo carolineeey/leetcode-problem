@@ -139,10 +139,12 @@ func main() {
 	fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
+	// 56. Merge Intervals
+	fmt.Println(solution.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 59. Spiral Matrix 2
-	fmt.Println(solution.GenerateMatrix(1))
+	//fmt.Println(solution.GenerateMatrix(1))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
