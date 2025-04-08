@@ -136,11 +136,13 @@ func main() {
 	// 53. Max Subarray
 	//fmt.Println(solution.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 	// 54. Spiral Matrix
-	fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	//fmt.Println(solution.SpiralOrder([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 	// 55. Jump Game
 	//fmt.Println(solution.CanJump([]int{3, 2, 1, 3, 4}))
 	// 56. Merge Intervals
-	fmt.Println(solution.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
+	//fmt.Println(solution.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
+	// 57. Insert Interval
+	fmt.Println(solution.Insert([][]int{{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}}, []int{4, 8}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 59. Spiral Matrix 2
