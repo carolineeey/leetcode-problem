@@ -124,9 +124,9 @@ func main() {
 	// 45. Jump Game 2
 	//fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
 	// 46. Permutations
-	//fmt.Println(solution.Permute([]int{1, 1, 2}))
+	fmt.Println(solution.Permute([]int{1, 1, 2}))
 	// 47. Permutations
-	//fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
+	fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
 	// 48. Rotate Image
 	//solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	// 49. Group Anagrams
@@ -142,11 +142,13 @@ func main() {
 	// 56. Merge Intervals
 	//fmt.Println(solution.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 	// 57. Insert Interval
-	fmt.Println(solution.Insert([][]int{{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}}, []int{4, 8}))
+	//fmt.Println(solution.Insert([][]int{{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}}, []int{4, 8}))
 	// 58. Length of Last Word
 	//fmt.Println(solution.LengthOfLastWord("   fly me   to   the moon  "))
 	// 59. Spiral Matrix 2
 	//fmt.Println(solution.GenerateMatrix(1))
+	// 60. Permutation Sequence
+	fmt.Println(solution.GetPermutation(3, 5))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
