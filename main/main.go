@@ -124,9 +124,9 @@ func main() {
 	// 45. Jump Game 2
 	//fmt.Println(solution.Jump([]int{2, 4, 1, 2, 3, 1, 1, 2}))
 	// 46. Permutations
-	fmt.Println(solution.Permute([]int{1, 1, 2}))
+	//fmt.Println(solution.Permute([]int{1, 1, 2}))
 	// 47. Permutations
-	fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
+	//fmt.Println(solution.PermuteUnique([]int{1, 1, 2}))
 	// 48. Rotate Image
 	//solution.Rotate([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	// 49. Group Anagrams
