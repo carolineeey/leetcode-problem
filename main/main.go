@@ -148,7 +148,9 @@ func main() {
 	// 59. Spiral Matrix 2
 	//fmt.Println(solution.GenerateMatrix(1))
 	// 60. Permutation Sequence
-	fmt.Println(solution.GetPermutation(3, 5))
+	//fmt.Println(solution.GetPermutation(3, 5))
+	// 66. Plus One
+	fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
@@ -178,5 +180,5 @@ func main() {
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3264. Final Array State After K Multiplication Operations I
-	fmt.Println(solution.GetFinalState([]int{2, 1, 3, 5, 6}, 5, 2))
+	//fmt.Println(solution.GetFinalState([]int{2, 1, 3, 5, 6}, 5, 2))
 }
