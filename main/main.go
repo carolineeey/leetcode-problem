@@ -6,18 +6,21 @@ import (
 )
 
 func main() {
-	//l1 := &solution.ListNode{
-	//	Val: 1,
-	//	Next: &solution.ListNode{
-	//		Val: 2,
-	//		Next: &solution.ListNode{
-	//			Val: 3,
-	//			Next: &solution.ListNode{
-	//				Val: 4,
-	//			},
-	//		},
-	//	},
-	//}
+	l1 := &solution.ListNode{
+		Val: 1,
+		Next: &solution.ListNode{
+			Val: 2,
+			Next: &solution.ListNode{
+				Val: 3,
+				Next: &solution.ListNode{
+					Val: 4,
+					Next: &solution.ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
+	}
 	//l2 := &solution.ListNode{
 	//	Val: 5,
 	//	Next: &solution.ListNode{
@@ -149,6 +152,8 @@ func main() {
 	//fmt.Println(solution.GenerateMatrix(1))
 	// 60. Permutation Sequence
 	//fmt.Println(solution.GetPermutation(3, 5))
+	// 61. Rotate List
+	fmt.Println(solution.RotateRight(l1, 2))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
