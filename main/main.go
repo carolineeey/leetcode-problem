@@ -151,8 +151,8 @@ func main() {
 	//fmt.Println(solution.GetPermutation(3, 5))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
-	//67. Add Binary
-	fmt.Println(solution.AddBinary("101", "101"))
+	// 67. Add Binary
+	//fmt.Println(solution.AddBinary("101", "101"))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
@@ -175,6 +175,8 @@ func main() {
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
+	// 989. Add to Array Form
+	fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
