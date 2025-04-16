@@ -150,7 +150,9 @@ func main() {
 	// 60. Permutation Sequence
 	//fmt.Println(solution.GetPermutation(3, 5))
 	// 66. Plus One
-	fmt.Println(solution.PlusOne([]int{9, 9}))
+	//fmt.Println(solution.PlusOne([]int{9, 9}))
+	//67. Add Binary
+	fmt.Println(solution.AddBinary("101", "101"))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
