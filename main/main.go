@@ -1,25 +1,26 @@
 package main
 
 import (
+	"fmt"
 	"github.com/carolineeey/leetcode-problem/solution"
 )
 
 func main() {
-	//l1 := &solution.ListNode{
-	//	Val: 1,
-	//	Next: &solution.ListNode{
-	//		Val: 2,
-	//		Next: &solution.ListNode{
-	//			Val: 3,
-	//			Next: &solution.ListNode{
-	//				Val: 4,
-	//				Next: &solution.ListNode{
-	//					Val: 5,
-	//				},
-	//			},
-	//		},
-	//	},
-	//}
+	l1 := &solution.ListNode{
+		Val: 1,
+		Next: &solution.ListNode{
+			Val: 2,
+			Next: &solution.ListNode{
+				Val: 3,
+				Next: &solution.ListNode{
+					Val: 4,
+					Next: &solution.ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
+	}
 	//l2 := &solution.ListNode{
 	//	Val: 5,
 	//	Next: &solution.ListNode{
@@ -161,6 +162,8 @@ func main() {
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
+	// 83. Remove Duplicate
+	fmt.Println(solution.DeleteDuplicates(l1))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
