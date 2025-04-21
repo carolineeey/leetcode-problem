@@ -162,6 +162,8 @@ func main() {
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
+	// 82. Remove Duplicates
+	fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
 	fmt.Println(solution.DeleteDuplicates(l1))
 	// 121. Best Time to Buy and Sell Stock
