@@ -16,6 +16,8 @@ func DeleteDuplicates2(head *ListNode) *ListNode {
 		} else {
 			prev = prev.Next // no duplicate, move prev
 		}
+
+		curr = curr.Next // advance curr in both cases
 	}
 
 	return dummy.Next
