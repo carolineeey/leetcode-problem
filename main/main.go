@@ -158,6 +158,8 @@ func main() {
 	fmt.Println(solution.UniquePaths(3, 7))
 	// 63. Unique Paths With Obstacle
 	fmt.Println(solution.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
+	// 64. Minimum Path Sum
+	fmt.Println(solution.MinPathSum([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
