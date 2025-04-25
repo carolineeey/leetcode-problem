@@ -154,6 +154,8 @@ func main() {
 	//fmt.Println(solution.GetPermutation(3, 5))
 	// 61. Rotate List
 	//fmt.Println(solution.RotateRight(l1, 2))
+	// 62. Unique Paths
+	fmt.Println(solution.UniquePaths(3, 7))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
