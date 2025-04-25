@@ -6,21 +6,21 @@ import (
 )
 
 func main() {
-	l1 := &solution.ListNode{
-		Val: 1,
-		Next: &solution.ListNode{
-			Val: 2,
-			Next: &solution.ListNode{
-				Val: 3,
-				Next: &solution.ListNode{
-					Val: 4,
-					Next: &solution.ListNode{
-						Val: 5,
-					},
-				},
-			},
-		},
-	}
+	//l1 := &solution.ListNode{
+	//	Val: 1,
+	//	Next: &solution.ListNode{
+	//		Val: 2,
+	//		Next: &solution.ListNode{
+	//			Val: 3,
+	//			Next: &solution.ListNode{
+	//				Val: 4,
+	//				Next: &solution.ListNode{
+	//					Val: 5,
+	//				},
+	//			},
+	//		},
+	//	},
+	//}
 	//l2 := &solution.ListNode{
 	//	Val: 5,
 	//	Next: &solution.ListNode{
@@ -156,6 +156,8 @@ func main() {
 	//fmt.Println(solution.RotateRight(l1, 2))
 	// 62. Unique Paths
 	fmt.Println(solution.UniquePaths(3, 7))
+	// 63. Unique Paths With Obstacle
+	fmt.Println(solution.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
@@ -165,9 +167,9 @@ func main() {
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 82. Remove Duplicates
-	fmt.Println(solution.DeleteDuplicates2(l1))
+	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
-	fmt.Println(solution.DeleteDuplicates(l1))
+	//fmt.Println(solution.DeleteDuplicates(l1))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
@@ -177,7 +179,7 @@ func main() {
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
-	solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
+	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 367. Is Perfect Square
