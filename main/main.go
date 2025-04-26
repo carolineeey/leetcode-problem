@@ -155,11 +155,11 @@ func main() {
 	// 61. Rotate List
 	//fmt.Println(solution.RotateRight(l1, 2))
 	// 62. Unique Paths
-	fmt.Println(solution.UniquePaths(3, 7))
+	//fmt.Println(solution.UniquePaths(3, 7))
 	// 63. Unique Paths With Obstacle
-	fmt.Println(solution.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
+	//fmt.Println(solution.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
 	// 64. Minimum Path Sum
-	fmt.Println(solution.MinPathSum([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}))
+	//fmt.Println(solution.MinPathSum([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}))
 	// 66. Plus One
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
@@ -168,6 +168,8 @@ func main() {
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
+	// 71. Simplify Path
+	fmt.Println(solution.SimplifyPath("/home//foo/"))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
