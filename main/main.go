@@ -169,9 +169,11 @@ func main() {
 	// 70. Climbing Stairs
 	//fmt.Println(solution.ClimbStairs(2))
 	// 71. Simplify Path
-	fmt.Println(solution.SimplifyPath("/home//foo/"))
+	//fmt.Println(solution.SimplifyPath("/home//foo/"))
+	// 72. Search in 2D Matrix
+	fmt.Println(solution.SearchMatrix([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 13))
 	// 73. Set Matrix Zeroes
-	solution.SetZeroes([][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}})
+	//solution.SetZeroes([][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}})
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
@@ -203,7 +205,7 @@ func main() {
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2116. Check If a Parentheses String Can Be Valid
-	fmt.Println(solution.CanBeValid("))()))", "010100"))
+	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3264. Final Array State After K Multiplication Operations I
