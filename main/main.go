@@ -200,6 +200,8 @@ func main() {
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
+	// 2116. Check If a Parentheses String Can Be Valid
+	fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3264. Final Array State After K Multiplication Operations I
