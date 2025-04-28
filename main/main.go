@@ -170,6 +170,8 @@ func main() {
 	//fmt.Println(solution.ClimbStairs(2))
 	// 71. Simplify Path
 	fmt.Println(solution.SimplifyPath("/home//foo/"))
+	// 73. Set Matrix Zeroes
+	solution.SetZeroes([][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}})
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
