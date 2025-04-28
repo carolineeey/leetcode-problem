@@ -14,3 +14,26 @@ func SearchMatrix(matrix [][]int, target int) bool {
 
 	return false
 }
+
+func SearchMatrixWithBinary(matrix [][]int, target int) bool {
+	rows := len(matrix)
+	cols := len(matrix[0])
+
+	start, end := 0, rows*cols-1
+	for start <= end {
+		mid := (start + end) / 2
+		row, col := mid/cols, mid%cols
+		current := matrix[row][col]
+
+		if current == target {
+
+			return true
+		} else if current > target {
+			end = mid - 1
+		} else if current < target {
+			start = mid + 1
+		}
+	}
+
+	return false
+}

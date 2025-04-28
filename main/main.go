@@ -171,7 +171,7 @@ func main() {
 	// 71. Simplify Path
 	//fmt.Println(solution.SimplifyPath("/home//foo/"))
 	// 72. Search in 2D Matrix
-	fmt.Println(solution.SearchMatrix([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 13))
+	fmt.Println(solution.SearchMatrixWithBinary([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3))
 	// 73. Set Matrix Zeroes
 	//solution.SetZeroes([][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}})
 	// 82. Remove Duplicates
