@@ -173,9 +173,11 @@ func main() {
 	// 73. Set Matrix Zeroes
 	//solution.SetZeroes([][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}})
 	// 74. Search in 2D Matrix
-	fmt.Println(solution.SearchMatrixWithBinary([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3))
+	//fmt.Println(solution.SearchMatrixWithBinary([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3))
 	// 75. Sort Colors
 	solution.SortColors([]int{2, 0, 2, 1, 1, 0})
+	// 77. Combine
+	fmt.Println(solution.Combine(4, 2))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
@@ -191,7 +193,7 @@ func main() {
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 240. Search 2D Matrix 2
-	fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
+	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 367. Is Perfect Square
