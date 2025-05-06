@@ -175,9 +175,9 @@ func main() {
 	// 74. Search in 2D Matrix
 	//fmt.Println(solution.SearchMatrixWithBinary([][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3))
 	// 75. Sort Colors
-	solution.SortColors([]int{2, 0, 2, 1, 1, 0})
+	//solution.SortColors([]int{2, 0, 2, 1, 1, 0})
 	// 77. Combine
-	fmt.Println(solution.Combine(4, 2))
+	//fmt.Println(solution.Combine(4, 2))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
@@ -212,6 +212,8 @@ func main() {
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
+	// 2708. Maximum Strength Of a Group
+	fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3264. Final Array State After K Multiplication Operations I
