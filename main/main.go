@@ -178,6 +178,8 @@ func main() {
 	//solution.SortColors([]int{2, 0, 2, 1, 1, 0})
 	// 77. Combine
 	//fmt.Println(solution.Combine(4, 2))
+	// 78. Subsets
+	fmt.Println(solution.Subsets([]int{1, 2, 3}))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
