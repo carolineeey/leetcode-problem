@@ -180,6 +180,8 @@ func main() {
 	//fmt.Println(solution.Combine(4, 2))
 	// 78. Subsets
 	//fmt.Println(solution.Subsets([]int{1, 2, 3}))
+	// 79. Word Search
+	fmt.Println(solution.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
 	// 80. Remove Duplicates from Sorted Array
 	fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 	// 82. Remove Duplicates
