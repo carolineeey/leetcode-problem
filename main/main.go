@@ -179,7 +179,9 @@ func main() {
 	// 77. Combine
 	//fmt.Println(solution.Combine(4, 2))
 	// 78. Subsets
-	fmt.Println(solution.Subsets([]int{1, 2, 3}))
+	//fmt.Println(solution.Subsets([]int{1, 2, 3}))
+	// 80. Remove Duplicates from Sorted Array
+	fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
@@ -215,7 +217,7 @@ func main() {
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2708. Maximum Strength Of a Group
-	fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
+	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3264. Final Array State After K Multiplication Operations I
