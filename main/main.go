@@ -164,6 +164,8 @@ func main() {
 	//fmt.Println(solution.PlusOne([]int{9, 9}))
 	// 67. Add Binary
 	//fmt.Println(solution.AddBinary("101", "101"))
+	// 68. Text Justification
+	fmt.Println(solution.FullJustify([]string{"This", "is", "an", "example", "of", "text", "justification."}, 16))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
@@ -181,9 +183,9 @@ func main() {
 	// 78. Subsets
 	//fmt.Println(solution.Subsets([]int{1, 2, 3}))
 	// 79. Word Search
-	fmt.Println(solution.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
+	//fmt.Println(solution.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
 	// 80. Remove Duplicates from Sorted Array
-	fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
+	//fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
