@@ -186,6 +186,8 @@ func main() {
 	//fmt.Println(solution.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
 	// 80. Remove Duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
+	// 81. Search in Rotated Array 2
+	fmt.Println(solution.Search2([]int{2, 5, 6, 0, 0, 1, 2}, 3))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
