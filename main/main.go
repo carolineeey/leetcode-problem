@@ -165,7 +165,7 @@ func main() {
 	// 67. Add Binary
 	//fmt.Println(solution.AddBinary("101", "101"))
 	// 68. Text Justification
-	fmt.Println(solution.FullJustify([]string{"This", "is", "an", "example", "of", "text", "justification."}, 16))
+	//fmt.Println(solution.FullJustify([]string{"This", "is", "an", "example", "of", "text", "justification."}, 16))
 	// 69. Sqrt(x)
 	//fmt.Println(solution.MySqrt(1))
 	// 70. Climbing Stairs
