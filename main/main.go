@@ -194,6 +194,8 @@ func main() {
 	//fmt.Println(solution.DeleteDuplicates(l1))
 	// 88. Merge Sorted Array
 	solution.MergeSorted([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	// 84. Largest Rectangle in Histogram
+	fmt.Println(solution.LargestRectangleArea([]int{2, 1, 5, 6, 2, 3}))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
