@@ -187,7 +187,7 @@ func main() {
 	// 80. Remove Duplicates from Sorted Array
 	//fmt.Println(solution.RemoveDuplicates2([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 	// 81. Search in Rotated Array 2
-	fmt.Println(solution.Search2([]int{2, 5, 6, 0, 0, 1, 2}, 3))
+	//fmt.Println(solution.Search2([]int{2, 5, 6, 0, 0, 1, 2}, 3))
 	// 82. Remove Duplicates
 	//fmt.Println(solution.DeleteDuplicates2(l1))
 	// 83. Remove Duplicate
@@ -208,6 +208,8 @@ func main() {
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
+	// 221. Maximal Square
+	fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 240. Search 2D Matrix 2
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
