@@ -102,20 +102,20 @@ func main() {
 	// 35. Search Insert Position
 	//fmt.Println(solution.SearchInsert([]int{1}, 1))
 	// 36. Valid Sudoku
-	board := [][]byte{
-		{'8', '3', '.', '.', '7', '.', '.', '.', '.'},
-		{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
-		{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
-		{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
-		{'4', '.', '.', '8', '.', '3', '.', '.', '1'},
-		{'7', '.', '.', '.', '2', '.', '.', '.', '6'},
-		{'.', '6', '.', '.', '.', '.', '2', '8', '.'},
-		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
-		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
-	}
+	//board := [][]byte{
+	//	{'8', '3', '.', '.', '7', '.', '.', '.', '.'},
+	//	{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+	//	{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+	//	{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+	//	{'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+	//	{'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+	//	{'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+	//	{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+	//	{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
+	//}
 	//fmt.Println(solution.IsValidSudoku(board))
 	// 37. Sudoku Solver
-	solution.SolveSudoku(board)
+	//solution.SolveSudoku(board)
 	// 39. Combination Sum
 	//fmt.Println(solution.CombinationSum([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	// 40. Combination Sum II
@@ -197,7 +197,7 @@ func main() {
 	// 84. Largest Rectangle in Histogram
 	//fmt.Println(solution.LargestRectangleArea([]int{2, 1, 5, 6, 2, 3}))
 	// 85. Maximal Rectangle Area
-	fmt.Println(solution.MaximalRectangle([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
+	//fmt.Println(solution.MaximalRectangle([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	p := &solution.TreeNode{
 		Val: 1,
 		Left: &solution.TreeNode{
@@ -228,6 +228,8 @@ func main() {
 			Val: 5,
 		},
 	}
+	// 90. Subsets 2
+	fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
 	// 100. Tree Node
 	fmt.Println(solution.IsSameTree(p, q))
 	// 121. Best Time to Buy and Sell Stock
