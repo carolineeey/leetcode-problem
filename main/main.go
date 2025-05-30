@@ -248,7 +248,7 @@ func main() {
 			},
 		},
 	}
-	fmt.Println(solution.ReverseBetween(head, 2, 4))
+	//fmt.Println(solution.ReverseBetween(head, 2, 4))
 	// 93. Restore IP Address
 	fmt.Println(solution.RestoreIpAddresses("25525511135"))
 	// 100. Tree Node
@@ -263,6 +263,8 @@ func main() {
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
+	// 206. Reverse Linked List
+	fmt.Println(solution.ReverseList(head))
 	// 221. Maximal Square
 	fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 240. Search 2D Matrix 2
