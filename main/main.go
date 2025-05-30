@@ -250,7 +250,7 @@ func main() {
 	}
 	//fmt.Println(solution.ReverseBetween(head, 2, 4))
 	// 93. Restore IP Address
-	fmt.Println(solution.RestoreIpAddresses("25525511135"))
+	//fmt.Println(solution.RestoreIpAddresses("25525511135"))
 	// 100. Tree Node
 	fmt.Println(solution.IsSameTree(p, q))
 	// 121. Best Time to Buy and Sell Stock
