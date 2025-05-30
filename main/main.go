@@ -266,7 +266,7 @@ func main() {
 	// 206. Reverse Linked List
 	fmt.Println(solution.ReverseList(head))
 	// 221. Maximal Square
-	fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
+	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 240. Search 2D Matrix 2
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
