@@ -232,6 +232,23 @@ func main() {
 	//fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
 	// 91. Decode Ways
 	//fmt.Println(solution.NumDecoding("226"))
+	// 92. Reverse Linked Link 2
+	head := &solution.ListNode{
+		Val: 1,
+		Next: &solution.ListNode{
+			Val: 2,
+			Next: &solution.ListNode{
+				Val: 3,
+				Next: &solution.ListNode{
+					Val: 4,
+					Next: &solution.ListNode{
+						Val: 5,
+					},
+				},
+			},
+		},
+	}
+	fmt.Println(solution.ReverseBetween(head, 2, 4))
 	// 93. Restore IP Address
 	fmt.Println(solution.RestoreIpAddresses("25525511135"))
 	// 100. Tree Node
