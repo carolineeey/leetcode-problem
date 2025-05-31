@@ -238,9 +238,9 @@ func main() {
 		Next: &solution.ListNode{
 			Val: 2,
 			Next: &solution.ListNode{
-				Val: 3,
+				Val: 2,
 				Next: &solution.ListNode{
-					Val: 4,
+					Val: 1,
 					Next: &solution.ListNode{
 						Val: 5,
 					},
@@ -259,6 +259,8 @@ func main() {
 	//fmt.Println("max profit 2", solution.MaxProfit2([]int{7, 1, 5, 3, 6, 4}))
 	// 123. Best Time to Buy and Sell Stock 3
 	//fmt.Println("max profit 3", solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
+	// 125. Valid Palindrome
+	fmt.Println(solution.IsCharacterPalindrome("A man, a plan, a canal: Panama"))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
@@ -267,6 +269,8 @@ func main() {
 	fmt.Println(solution.ReverseList(head))
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
+	// 234. Palindrome Linked List
+	fmt.Println(solution.IsPalindromeLinkedList(head))
 	// 240. Search 2D Matrix 2
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
