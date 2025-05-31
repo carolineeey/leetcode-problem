@@ -266,7 +266,7 @@ func main() {
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 206. Reverse Linked List
-	fmt.Println(solution.ReverseList(head))
+	//fmt.Println(solution.ReverseList(head))
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 234. Palindrome Linked List
