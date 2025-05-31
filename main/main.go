@@ -283,6 +283,8 @@ func main() {
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
+	// 680. Valid Palindrome 2
+	fmt.Println("680. Valid palindrome", solution.ValidPalindrome("abdb_a"))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1588. Sum of All Odd Lengths
