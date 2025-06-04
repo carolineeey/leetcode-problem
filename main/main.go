@@ -253,6 +253,8 @@ func main() {
 	//fmt.Println(solution.RestoreIpAddresses("25525511135"))
 	// 94. Binary Tree Inorder Traversal
 	fmt.Println(solution.InorderTraversal(p))
+	// 95. Update Binary Search Tree (BST)
+	solution.GenerateTrees(3)
 	// 98. Validate Binary Search Tree
 	fmt.Println(solution.IsValidBST(q))
 	// 100. Tree Node
