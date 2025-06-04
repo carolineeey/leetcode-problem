@@ -255,6 +255,8 @@ func main() {
 	fmt.Println(solution.InorderTraversal(p))
 	// 95. Update Binary Search Tree (BST)
 	solution.GenerateTrees(3)
+	// 96. Unique Binary Search Tree (BST)
+	solution.NumTrees(3)
 	// 98. Validate Binary Search Tree
 	fmt.Println(solution.IsValidBST(q))
 	// 100. Tree Node
