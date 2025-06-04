@@ -252,7 +252,7 @@ func main() {
 	// 93. Restore IP Address
 	//fmt.Println(solution.RestoreIpAddresses("25525511135"))
 	// 94. Binary Tree Inorder Traversal
-	fmt.Println(solution.InorderTraversal(p))
+	//fmt.Println(solution.InorderTraversal(p))
 	// 95. Update Binary Search Tree (BST)
 	solution.GenerateTrees(3)
 	// 96. Unique Binary Search Tree (BST)
@@ -260,7 +260,7 @@ func main() {
 	// 98. Validate Binary Search Tree
 	fmt.Println(solution.IsValidBST(q))
 	// 100. Tree Node
-	fmt.Println(solution.IsSameTree(p, q))
+	//fmt.Println(solution.IsSameTree(p, q))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
