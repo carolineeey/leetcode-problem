@@ -237,6 +237,24 @@ func main() {
 			Val: 7,
 		},
 	}
+	s := &solution.TreeNode{
+		Val: 10,
+		Left: &solution.TreeNode{
+			Val: 5,
+			Left: &solution.TreeNode{
+				Val: 3,
+			},
+			Right: &solution.TreeNode{
+				Val: 7,
+			},
+		},
+		Right: &solution.TreeNode{
+			Val: 15,
+			Right: &solution.TreeNode{
+				Val: 18,
+			},
+		},
+	}
 
 	// 90. Subsets 2
 	//fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
@@ -268,9 +286,9 @@ func main() {
 	// 96. Unique Binary Search Tree (BST)
 	solution.NumTrees(3)
 	// 98. Validate Binary Search Tree
-	fmt.Println(solution.IsValidBST(q))
+	//fmt.Println(solution.IsValidBST(q))
 	// 100. Tree Node
-	fmt.Println(solution.IsSameTree(p, q))
+	solution.IsSameTree(p, q)
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
@@ -278,7 +296,7 @@ func main() {
 	// 123. Best Time to Buy and Sell Stock 3
 	//fmt.Println("max profit 3", solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
 	// 125. Valid Palindrome
-	fmt.Println("125. Valid Palindrome 1", solution.IsCharacterPalindrome("A man, a plan, a canal: Panama"))
+	//fmt.Println("125. Valid Palindrome 1", solution.IsCharacterPalindrome("A man, a plan, a canal: Panama"))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
@@ -288,7 +306,7 @@ func main() {
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 234. Palindrome Linked List
-	fmt.Println("234. Palindrome linked list", solution.IsPalindromeLinkedList(head))
+	solution.IsPalindromeLinkedList(head)
 	// 240. Search 2D Matrix 2
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
@@ -298,13 +316,15 @@ func main() {
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 501. Find Mode in Binary Search Tree
-	fmt.Println(solution.FindMode(p))
+	//fmt.Println(solution.FindMode(p))
 	// 567. Permutation in String
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 680. Valid Palindrome 2
-	fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
+	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
+	// 938. Range Sum of BST
+	fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1588. Sum of All Odd Lengths
