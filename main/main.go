@@ -228,6 +228,16 @@ func main() {
 			Val: 5,
 		},
 	}
+	r := &solution.TreeNode{
+		Val: 10,
+		Left: &solution.TreeNode{
+			Val: 2,
+		},
+		Right: &solution.TreeNode{
+			Val: 7,
+		},
+	}
+
 	// 90. Subsets 2
 	//fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
 	// 91. Decode Ways
@@ -303,6 +313,8 @@ func main() {
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
+	// 2236. Root Equals Sum of Children
+	fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2778. Sum of Squares of Special Elements
