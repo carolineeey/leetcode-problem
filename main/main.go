@@ -319,12 +319,16 @@ func main() {
 	//fmt.Println(solution.FindMode(p))
 	// 567. Permutation in String
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
+	// 627. Merge Two Binary Trees
+	fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 938. Range Sum of BST
 	fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
+	// 965. Univalued Binary Tree
+	fmt.Println("// 965. Univalued Binary Tree", solution.IsUnivalTree(p))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1588. Sum of All Odd Lengths
