@@ -289,8 +289,12 @@ func main() {
 	//fmt.Println(solution.IsValidBST(q))
 	// 100. Tree Node
 	solution.IsSameTree(p, q)
+	// 101. Symmetric Tree
+	fmt.Println("101. Symmetric Tree", solution.IsSymmetric(p))
 	// 102. Binary Tree Level Order Traversal
 	fmt.Println("102. Binary Tree Level Order Traversal", solution.LevelOrder(p))
+	// 111. Minimum Byte of The Binary Tree
+	fmt.Println("111. Minimum Byte of The Binary Tree", solution.MinDepth(p))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
