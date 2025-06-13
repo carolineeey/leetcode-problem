@@ -287,6 +287,8 @@ func main() {
 	solution.NumTrees(3)
 	// 98. Validate Binary Search Tree
 	//fmt.Println(solution.IsValidBST(q))
+	// 99. Recover Binary Search Tree
+	solution.RecoverTree(p)
 	// 100. Tree Node
 	solution.IsSameTree(p, q)
 	// 101. Symmetric Tree
