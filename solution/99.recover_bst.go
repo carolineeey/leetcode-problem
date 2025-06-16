@@ -3,13 +3,13 @@ package solution
 func RecoverTree(root *TreeNode) {
 	var first, second, prev *TreeNode
 
-	var inorder func(root *TreeNode)
+	var inorder func(node *TreeNode)
 	inorder = func(node *TreeNode) {
-		if root == nil {
+		if node == nil {
 			return
 		}
 
-		inorder(root.Left)
+		inorder(node.Left)
 
 		if prev != nil && prev.Val > node.Val { // detect violation (if nodes are out of order)
 			if first == nil {
@@ -19,7 +19,7 @@ func RecoverTree(root *TreeNode) {
 		}
 		prev = node // update node
 
-		inorder(root.Right)
+		inorder(node.Right)
 	}
 
 	inorder(root)
