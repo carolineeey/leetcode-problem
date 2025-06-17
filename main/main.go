@@ -295,6 +295,8 @@ func main() {
 	fmt.Println("101. Symmetric Tree", solution.IsSymmetric(p))
 	// 102. Binary Tree Level Order Traversal
 	fmt.Println("102. Binary Tree Level Order Traversal", solution.LevelOrder(p))
+	// 104. Maximum Depth of Binary Tree
+	fmt.Println("104. Maximum Depth of Binary Tree", solution.MaxDepth(p))
 	// 111. Minimum Byte of The Binary Tree
 	fmt.Println("111. Minimum Byte of The Binary Tree", solution.MinDepth(p))
 	// 121. Best Time to Buy and Sell Stock
