@@ -297,6 +297,8 @@ func main() {
 	fmt.Println("102. Binary Tree Level Order Traversal", solution.LevelOrder(p))
 	// 104. Maximum Depth of Binary Tree
 	fmt.Println("104. Maximum Depth of Binary Tree", solution.MaxDepth(p))
+	// 105. Construct Binary Tree from Preorder and Inorder Traversal
+	fmt.Println("105. Construct Binary Tree from Preorder and Inorder Traversal", solution.BuildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}))
 	// 110. Balanced Binary Tree
 	fmt.Println("110. Balanced Binary Tree", solution.IsBalanced(q))
 	// 111. Minimum Byte of The Binary Tree
