@@ -343,6 +343,8 @@ func main() {
 	fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
+	// 637. Average of Levels in Binary Tree
+	fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 938. Range Sum of BST
