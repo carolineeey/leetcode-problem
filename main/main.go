@@ -300,9 +300,11 @@ func main() {
 	// 105. Construct Binary Tree from Preorder and Inorder Traversal
 	fmt.Println("105. Construct Binary Tree from Preorder and Inorder Traversal", solution.BuildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}))
 	// 106. Construct Binary Tree from Inorder and Postorder Traversal
+	fmt.Println("106. Construct Binary Tree from Inorder and Postorder Traversal", solution.BuildTreeTraversal([]int{9, 3, 15, 20, 7}, []int{9, 15, 7, 20, 3}))
 	// 107. Binary Tree Level Order Traversal II
 	fmt.Println("107. Binary Tree Level Order Traversal II", solution.LevelOrderBottom(p))
-	fmt.Println("106. Construct Binary Tree from Inorder and Postorder Traversal", solution.BuildTreeTraversal([]int{9, 3, 15, 20, 7}, []int{9, 15, 7, 20, 3}))
+	// 108. Convert Sorted Array to Binary Search Tree
+	fmt.Println("108. Convert Sorted Array to Binary Search Tree", solution.SortedArrayToBST([]int{-10, -3, 0, 5, 9}))
 	// 110. Balanced Binary Tree
 	fmt.Println("110. Balanced Binary Tree", solution.IsBalanced(q))
 	// 111. Minimum Byte of The Binary Tree
