@@ -266,9 +266,9 @@ func main() {
 		Next: &solution.ListNode{
 			Val: 2,
 			Next: &solution.ListNode{
-				Val: 2,
+				Val: 3,
 				Next: &solution.ListNode{
-					Val: 1,
+					Val: 4,
 					Next: &solution.ListNode{
 						Val: 5,
 					},
@@ -305,6 +305,8 @@ func main() {
 	fmt.Println("107. Binary Tree Level Order Traversal II", solution.LevelOrderBottom(p))
 	// 108. Convert Sorted Array to Binary Search Tree
 	fmt.Println("108. Convert Sorted Array to Binary Search Tree", solution.SortedArrayToBST([]int{-10, -3, 0, 5, 9}))
+	// 109. Convert Sorted List to Binary Search Tree
+	fmt.Println("109. Convert Sorted List to Binary Search Tree", solution.SortedListToBST(head))
 	// 110. Balanced Binary Tree
 	fmt.Println("110. Balanced Binary Tree", solution.IsBalanced(q))
 	// 111. Minimum Byte of The Binary Tree
