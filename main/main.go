@@ -311,6 +311,8 @@ func main() {
 	fmt.Println("110. Balanced Binary Tree", solution.IsBalanced(q))
 	// 111. Minimum Byte of The Binary Tree
 	fmt.Println("111. Minimum Byte of The Binary Tree", solution.MinDepth(p))
+	// 112. Path Sum
+	fmt.Println("112. Path Sum", solution.HasPathSum(r, 9))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
