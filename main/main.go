@@ -344,6 +344,8 @@ func main() {
 	solution.Flatten(r)
 	// 116. Populating Next Right Pointers in Each Node
 	fmt.Println("116. Populating Next Right Pointers in Each Node", solution.Connect(t))
+	// 117. Populating Next Right Pointers in Each Node
+	fmt.Println("117. Populating Next Right Pointers in Each Node 2", solution.Connect2(t))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
