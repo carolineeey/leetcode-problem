@@ -256,6 +256,31 @@ func main() {
 		},
 	}
 
+	t := &solution.Node{
+		Val: 10,
+		Left: &solution.Node{
+			Val: 5,
+			Left: &solution.Node{
+				Val: 3,
+			},
+			Right: &solution.Node{
+				Val: 7,
+			},
+		},
+		Right: &solution.Node{
+			Val: 15,
+			Right: &solution.Node{
+				Val: 18,
+			},
+		},
+		Next: &solution.Node{
+			Val: 9,
+			Right: &solution.Node{
+				Val: 5,
+			},
+		},
+	}
+
 	// 90. Subsets 2
 	//fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
 	// 91. Decode Ways
@@ -317,6 +342,8 @@ func main() {
 	fmt.Println("113. Path Sum", solution.PathSum(r, 1))
 	// 114. Flatten Binary Tree to Linked List
 	solution.Flatten(r)
+	// 116. Populating Next Right Pointers in Each Node
+	fmt.Println("116. Populating Next Right Pointers in Each Node", solution.Connect(t))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
