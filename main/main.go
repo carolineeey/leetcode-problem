@@ -346,6 +346,10 @@ func main() {
 	fmt.Println("116. Populating Next Right Pointers in Each Node", solution.Connect(t))
 	// 117. Populating Next Right Pointers in Each Node
 	fmt.Println("117. Populating Next Right Pointers in Each Node 2", solution.Connect2(t))
+	// 118. Pascal Triangle
+	fmt.Println("118. Pascal Triangle", solution.Generate(5))
+	// 119. Pascal Triangle 2
+	fmt.Println("119. Pascal Triangle 2", solution.GeneratePascalTriangle(4))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
@@ -401,7 +405,7 @@ func main() {
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2236. Root Equals Sum of Children
-	fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
+	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2778. Sum of Squares of Special Elements
