@@ -350,6 +350,8 @@ func main() {
 	fmt.Println("118. Pascal Triangle", solution.Generate(5))
 	// 119. Pascal Triangle 2
 	fmt.Println("119. Pascal Triangle 2", solution.GeneratePascalTriangle(4))
+	// 120. Triangle
+	fmt.Println("120. Triangle", solution.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
 	// 121. Best Time to Buy and Sell Stock
 	//fmt.Println("max profit", solution.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 	// 122. Best Time to Buy and Sell Stock 2
