@@ -362,8 +362,12 @@ func main() {
 	fmt.Println("124. Binary Tree Max Path Sum", solution.MaxPathSum(s))
 	// 125. Valid Palindrome
 	//fmt.Println("125. Valid Palindrome 1", solution.IsCharacterPalindrome("A man, a plan, a canal: Panama"))
+	// 128. Longest Consecutive Sequence
+	fmt.Println("128. Longest Consecutive Sequence", solution.LongestConsecutive2([]int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}))
 	// 129. Sum Root to Leaf Numbers
 	fmt.Println("129. Sum Root to Leaf Numbers", solution.SumNumbers(r))
+	// 136. Single Number
+	fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
