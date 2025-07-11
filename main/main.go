@@ -358,8 +358,12 @@ func main() {
 	//fmt.Println("max profit 2", solution.MaxProfit2([]int{7, 1, 5, 3, 6, 4}))
 	// 123. Best Time to Buy and Sell Stock 3
 	//fmt.Println("max profit 3", solution.MaxProfit3([]int{3, 3, 5, 0, 0, 3, 1, 4}))
+	// 124. Binary Tree Max Path Sum
+	fmt.Println("124. Binary Tree Max Path Sum", solution.MaxPathSum(s))
 	// 125. Valid Palindrome
 	//fmt.Println("125. Valid Palindrome 1", solution.IsCharacterPalindrome("A man, a plan, a canal: Panama"))
+	// 129. Sum Root to Leaf Numbers
+	fmt.Println("129. Sum Root to Leaf Numbers", solution.SumNumbers(r))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
