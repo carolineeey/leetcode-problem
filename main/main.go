@@ -368,6 +368,8 @@ func main() {
 	fmt.Println("129. Sum Root to Leaf Numbers", solution.SumNumbers(r))
 	// 136. Single Number
 	fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
+	// 137. Single Number 2
+	fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
