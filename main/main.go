@@ -386,6 +386,8 @@ func main() {
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 257. Binary Tree Paths
 	fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
+	// 268. Missing Number
+	fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 438. Find All Anagrams
