@@ -390,6 +390,8 @@ func main() {
 	fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
+	// 389. Find The Difference
+	fmt.Println("389. Find The Difference", solution.FindTheDifference("abcd", "abcde"))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 501. Find Mode in Binary Search Tree
