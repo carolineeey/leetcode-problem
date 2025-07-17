@@ -388,6 +388,8 @@ func main() {
 	fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
 	// 268. Missing Number
 	fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
+	// 287. Find the Duplicate Number
+	fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 389. Find The Difference
