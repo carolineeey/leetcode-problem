@@ -1,7 +1,7 @@
 package solution
 
 func ConvertToTitle(columnNumber int) string {
-	res := []byte{}
+	var res []byte
 	for columnNumber > 0 {
 		offset := (columnNumber - 1) % 26
 		res = append(res, 'A'+byte(offset))

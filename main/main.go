@@ -372,6 +372,8 @@ func main() {
 	fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
 	// 168. Excel Sheet Column Title
 	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
+	// 171. Excel Sheet Column Number
+	fmt.Println("171. Excel Sheet Column Number", solution.TitleToNumber("AB"))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
