@@ -420,6 +420,8 @@ func main() {
 	fmt.Println("965. Univalued Binary Tree", solution.IsUnivalTree(p))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
+	// 1030. Matrix Cells in Distance Order
+	fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
@@ -427,7 +429,7 @@ func main() {
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2194. Cells in a Range on an Excel Sheet
-	fmt.Println(solution.CellsInRange("K1:L2"))
+	//fmt.Println("2194. Cells in a Range on an Excel Sheet", solution.CellsInRange("K1:L2"))
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2708. Maximum Strength Of a Group
