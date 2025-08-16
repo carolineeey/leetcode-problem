@@ -426,6 +426,8 @@ func main() {
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
+	// 2194. Cells in a Range on an Excel Sheet
+	fmt.Println(solution.CellsInRange("K1:L2"))
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2708. Maximum Strength Of a Group
