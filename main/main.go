@@ -422,10 +422,14 @@ func main() {
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1030. Matrix Cells in Distance Order
 	fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
+	// 1356. Sort Integers by The Number of 1 Bits
+	fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
+	// 2099.Find Subsequence of Length K With the Largest Sum
+	fmt.Println("2099.Find Subsequence of Length K With the Largest Sum", solution.MaxSubsequence([]int{2, 1, 3, 3}, 2))
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2194. Cells in a Range on an Excel Sheet
