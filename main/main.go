@@ -380,6 +380,8 @@ func main() {
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 206. Reverse Linked List
 	//fmt.Println(solution.ReverseList(head))
+	// 215. Kth Largest Element in an Array
+	fmt.Println("215. Kth Largest Element in an Array", solution.FindKthLargest([]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4))
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 234. Palindrome Linked List
@@ -389,47 +391,49 @@ func main() {
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 257. Binary Tree Paths
-	fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
+	//fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
 	// 268. Missing Number
-	fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
+	//fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 287. Find the Duplicate Number
-	fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
+	//fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 389. Find The Difference
-	fmt.Println("389. Find The Difference", solution.FindTheDifference("abcd", "abcde"))
+	//fmt.Println("389. Find The Difference", solution.FindTheDifference("abcd", "abcde"))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 501. Find Mode in Binary Search Tree
 	//fmt.Println(solution.FindMode(p))
 	// 515. Find Largest Value in Each Tree Row
-	fmt.Println("515. Find Largest Value in Each Tree Row", solution.LargestValues(p))
+	//fmt.Println("515. Find Largest Value in Each Tree Row", solution.LargestValues(p))
 	// 567. Permutation in String
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 627. Merge Two Binary Trees
-	fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
+	//fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 637. Average of Levels in Binary Tree
-	fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
+	//fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 938. Range Sum of BST
-	fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
+	//fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
 	// 965. Univalued Binary Tree
-	fmt.Println("965. Univalued Binary Tree", solution.IsUnivalTree(p))
+	//fmt.Println("965. Univalued Binary Tree", solution.IsUnivalTree(p))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
+	// 1005. Maximize Sum Of Array After K Negations
+	//fmt.Println("1005. Maximize Sum Of Array After K Negations", solution.LargestSumAfterKNegations([]int{2, -3, -1, 5, -4}, 2))
 	// 1030. Matrix Cells in Distance Order
-	fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
+	//fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
 	// 1356. Sort Integers by The Number of 1 Bits
-	fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
+	//fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
 	// 1886. Determine Whether Matrix Can Be Obtained By Rotation
 	//fmt.Println(solution.FindRotation([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, [][]int{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}))
 	// 2099.Find Subsequence of Length K With the Largest Sum
-	fmt.Println("2099.Find Subsequence of Length K With the Largest Sum", solution.MaxSubsequence([]int{2, 1, 3, 3}, 2))
+	//fmt.Println("2099.Find Subsequence of Length K With the Largest Sum", solution.MaxSubsequence([]int{2, 1, 3, 3}, 2))
 	// 2116. Check If a Parentheses String Can Be Valid
 	//fmt.Println(solution.CanBeValid("))()))", "010100"))
 	// 2194. Cells in a Range on an Excel Sheet
