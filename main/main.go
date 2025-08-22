@@ -400,6 +400,8 @@ func main() {
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 389. Find The Difference
 	//fmt.Println("389. Find The Difference", solution.FindTheDifference("abcd", "abcde"))
+	// 414. Third Maximum Number
+	fmt.Println("414. Third Maximum Number", solution.ThirdMax([]int{3, 2, 2, 1}))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 501. Find Mode in Binary Search Tree
