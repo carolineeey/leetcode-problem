@@ -452,6 +452,8 @@ func main() {
 	fmt.Println("2733. Find Neither Minimum nor Maximum", solution.FindNonMinOrMax([]int{3, 2, 1, 4}))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
+	// 3158. Find the XOR of Numbers Which Appear Twice
+	fmt.Println("3158. Find the XOR of Numbers Which Appear Twice", solution.DuplicateNumbersXOR([]int{1, 2, 1, 2}))
 	// 3264. Final Array State After K Multiplication Operations I
 	//fmt.Println(solution.GetFinalState([]int{2, 1, 3, 5, 6}, 5, 2))
 }
