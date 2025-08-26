@@ -422,6 +422,8 @@ func main() {
 	//fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
+	// 929. Unique Email Addresses
+	fmt.Println("929. Unique Email Addresses", solution.NomUniqueEmails([]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}))
 	// 938. Range Sum of BST
 	//fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
 	// 965. Univalued Binary Tree
@@ -449,11 +451,11 @@ func main() {
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2733. Find Neither Minimum nor Maximum
-	fmt.Println("2733. Find Neither Minimum nor Maximum", solution.FindNonMinOrMax([]int{3, 2, 1, 4}))
+	//fmt.Println("2733. Find Neither Minimum nor Maximum", solution.FindNonMinOrMax([]int{3, 2, 1, 4}))
 	// 2778. Sum of Squares of Special Elements
 	//fmt.Println(solution.SumOfSquares([]int{2, 7, 1, 19, 18, 3}))
 	// 3158. Find the XOR of Numbers Which Appear Twice
-	fmt.Println("3158. Find the XOR of Numbers Which Appear Twice", solution.DuplicateNumbersXOR([]int{1, 2, 1, 2}))
+	//fmt.Println("3158. Find the XOR of Numbers Which Appear Twice", solution.DuplicateNumbersXOR([]int{1, 2, 1, 2}))
 	// 3264. Final Array State After K Multiplication Operations I
 	//fmt.Println(solution.GetFinalState([]int{2, 1, 3, 5, 6}, 5, 2))
 }
