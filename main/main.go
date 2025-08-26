@@ -404,6 +404,8 @@ func main() {
 	fmt.Println("414. Third Maximum Number", solution.ThirdMax([]int{3, 2, 2, 1}))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
+	// 496. Next Greater Element
+	fmt.Println("496. Next Greater Element", solution.NextGreaterElement([]int{4, 1, 2}, []int{4, 3, 1, 2}))
 	// 501. Find Mode in Binary Search Tree
 	//fmt.Println(solution.FindMode(p))
 	// 515. Find Largest Value in Each Tree Row
