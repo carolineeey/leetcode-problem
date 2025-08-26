@@ -391,7 +391,7 @@ func main() {
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 260. Single Number 3
-	fmt.Println(solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
+	fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
 	// 257. Binary Tree Paths
 	//fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
 	// 268. Missing Number
