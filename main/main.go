@@ -370,6 +370,8 @@ func main() {
 	fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
 	// 137. Single Number 2
 	fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
+	// 139. Word Break
+	fmt.Println("139. Word Break", solution.WordBreak("catsandog", []string{"cats", "dog", "sand", "and", "cat"}))
 	// 168. Excel Sheet Column Title
 	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 171. Excel Sheet Column Number
@@ -385,13 +387,13 @@ func main() {
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 234. Palindrome Linked List
-	solution.IsPalindromeLinkedList(head)
+	//solution.IsPalindromeLinkedList(head)
 	// 240. Search 2D Matrix 2
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
 	// 260. Single Number 3
-	fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
+	//fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
 	// 257. Binary Tree Paths
 	//fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
 	// 268. Missing Number
@@ -403,11 +405,11 @@ func main() {
 	// 389. Find The Difference
 	//fmt.Println("389. Find The Difference", solution.FindTheDifference("abcd", "abcde"))
 	// 414. Third Maximum Number
-	fmt.Println("414. Third Maximum Number", solution.ThirdMax([]int{3, 2, 2, 1}))
+	//fmt.Println("414. Third Maximum Number", solution.ThirdMax([]int{3, 2, 2, 1}))
 	// 438. Find All Anagrams
 	//fmt.Println(solution.FindAnagrams("cbaebabacd", "abc"))
 	// 496. Next Greater Element
-	fmt.Println("496. Next Greater Element", solution.NextGreaterElement([]int{4, 1, 2}, []int{4, 3, 1, 2}))
+	//fmt.Println("496. Next Greater Element", solution.NextGreaterElement([]int{4, 1, 2}, []int{4, 3, 1, 2}))
 	// 501. Find Mode in Binary Search Tree
 	//fmt.Println(solution.FindMode(p))
 	// 515. Find Largest Value in Each Tree Row
