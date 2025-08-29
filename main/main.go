@@ -372,6 +372,8 @@ func main() {
 	fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
 	// 139. Word Break
 	fmt.Println("139. Word Break", solution.WordBreak("catsandog", []string{"cats", "dog", "sand", "and", "cat"}))
+	// 141. Linked List Cycle
+	fmt.Println("141. Linked List Cycle", solution.HasCycle(head))
 	// 168. Excel Sheet Column Title
 	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 171. Excel Sheet Column Number
