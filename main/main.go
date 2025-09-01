@@ -426,10 +426,12 @@ func main() {
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 637. Average of Levels in Binary Tree
 	//fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
+	// 645. Set Mismatch
+	fmt.Println("645. Set Mismatch", solution.FindErrorNums([]int{1, 2, 2, 4}))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 929. Unique Email Addresses
-	fmt.Println("929. Unique Email Addresses", solution.NomUniqueEmails([]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}))
+	//fmt.Println("929. Unique Email Addresses", solution.NomUniqueEmails([]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}))
 	// 938. Range Sum of BST
 	//fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
 	// 965. Univalued Binary Tree
