@@ -384,6 +384,8 @@ func main() {
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
+	// 202. Happy Number
+	fmt.Println("202. Happy Number", solution.IsHappy(19))
 	// 206. Reverse Linked List
 	//fmt.Println(solution.ReverseList(head))
 	// 215. Kth Largest Element in an Array
@@ -427,7 +429,7 @@ func main() {
 	// 637. Average of Levels in Binary Tree
 	//fmt.Println("637. Average of Levels in Binary Tree", solution.AverageOfLevels(p))
 	// 645. Set Mismatch
-	fmt.Println("645. Set Mismatch", solution.FindErrorNums([]int{1, 2, 2, 4}))
+	//fmt.Println("645. Set Mismatch", solution.FindErrorNums([]int{1, 2, 2, 4}))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 929. Unique Email Addresses
