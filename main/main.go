@@ -398,6 +398,8 @@ func main() {
 	//fmt.Println(solution.SearchMatrix2([][]int{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}}, 5))
 	// 242. Valid Anagram
 	//fmt.Println(solution.IsAnagramV2("anagram", "nagaram"))
+	// 258. Add Digits
+	fmt.Println("258. Add Digits", solution.AddDigits(38))
 	// 260. Single Number 3
 	//fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
 	// 257. Binary Tree Paths
