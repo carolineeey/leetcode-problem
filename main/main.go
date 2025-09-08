@@ -386,10 +386,12 @@ func main() {
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 202. Happy Number
 	fmt.Println("202. Happy Number", solution.IsHappy(19))
+	// 204. Count Primes
+	fmt.Println("204. Count Primes", solution.CountPrimes(10))
 	// 206. Reverse Linked List
 	//fmt.Println(solution.ReverseList(head))
 	// 215. Kth Largest Element in an Array
-	fmt.Println("215. Kth Largest Element in an Array", solution.FindKthLargest([]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4))
+	//fmt.Println("215. Kth Largest Element in an Array", solution.FindKthLargest([]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4))
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 234. Palindrome Linked List
@@ -401,13 +403,13 @@ func main() {
 	// 257. Binary Tree Paths
 	//fmt.Println("257. Binary Tree Paths", solution.BinaryTreePaths(p))
 	// 258. Add Digits
-	fmt.Println("258. Add Digits", solution.AddDigits(38))
+	//fmt.Println("258. Add Digits", solution.AddDigits(38))
 	// 260. Single Number 3
 	//fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
 	// 263. Ugly Number
-	fmt.Println("263. Ugly Number", solution.IsUgly(14))
+	//fmt.Println("263. Ugly Number", solution.IsUgly(14))
 	// 264. Ugly Number 2
-	fmt.Println("264. Ugly Number 2", solution.NthUglyNumber(10))
+	//fmt.Println("264. Ugly Number 2", solution.NthUglyNumber(10))
 	// 268. Missing Number
 	//fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 287. Find the Duplicate Number
