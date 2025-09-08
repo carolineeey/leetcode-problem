@@ -406,6 +406,8 @@ func main() {
 	//fmt.Println("260. Single Number 3", solution.SingleNumber3([]int{1, 2, 1, 3, 2, 5}))
 	// 263. Ugly Number
 	fmt.Println("263. Ugly Number", solution.IsUgly(14))
+	// 264. Ugly Number 2
+	fmt.Println("264. Ugly Number 2", solution.NthUglyNumber(10))
 	// 268. Missing Number
 	//fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 287. Find the Duplicate Number
