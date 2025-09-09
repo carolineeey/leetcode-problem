@@ -468,6 +468,8 @@ func main() {
 	//fmt.Println("2194. Cells in a Range on an Excel Sheet", solution.CellsInRange("K1:L2"))
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
+	// 2427. Number of Common Factors
+	fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2733. Find Neither Minimum nor Maximum
