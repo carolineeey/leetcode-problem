@@ -412,6 +412,8 @@ func main() {
 	//fmt.Println("264. Ugly Number 2", solution.NthUglyNumber(10))
 	// 268. Missing Number
 	//fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
+	// 279. Perfect Squares
+	fmt.Println(solution.NumSquares(13))
 	// 287. Find the Duplicate Number
 	//fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
 	// 367. Is Perfect Square
