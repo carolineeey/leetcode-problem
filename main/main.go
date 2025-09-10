@@ -454,6 +454,8 @@ func main() {
 	//fmt.Println("1005. Maximize Sum Of Array After K Negations", solution.LargestSumAfterKNegations([]int{2, -3, -1, 5, -4}, 2))
 	// 1030. Matrix Cells in Distance Order
 	//fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
+	// 1232. Check If It Is a Straight Line
+	fmt.Println("1232. Check If It Is a Straight Line", solution.CheckStraightLine([][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}}))
 	// 1356. Sort Integers by The Number of 1 Bits
 	//fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
 	// 1588. Sum of All Odd Lengths
@@ -469,7 +471,7 @@ func main() {
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2427. Number of Common Factors
-	fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
+	//fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2733. Find Neither Minimum nor Maximum
