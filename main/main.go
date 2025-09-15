@@ -459,6 +459,8 @@ func main() {
 	// 1232. Check If It Is a Straight Line
 	//fmt.Println("1232. Check If It Is a Straight Line", solution.CheckStraightLine([][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}}))
 	// 1356. Sort Integers by The Number of 1 Bits
+	// 1351. Count Negative Numbers in a Sorted Matrix
+	fmt.Println("1351. Count Negative Numbers in a Sorted Matrix", solution.CountNegatives([][]int{{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}}))
 	//fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
