@@ -442,6 +442,8 @@ func main() {
 	//fmt.Println("645. Set Mismatch", solution.FindErrorNums([]int{1, 2, 2, 4}))
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
+	// 704. Binary Search
+	fmt.Println("704. Binary Search", solution.BinarySearch([]int{-1, 0, 3, 5, 9, 12}, 9))
 	// 929. Unique Email Addresses
 	//fmt.Println("929. Unique Email Addresses", solution.NomUniqueEmails([]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}))
 	// 938. Range Sum of BST
@@ -455,12 +457,12 @@ func main() {
 	// 1030. Matrix Cells in Distance Order
 	//fmt.Println("1030. Matrix Cells in Distance Order", solution.AllCellsDistOrder(1, 2, 0, 0))
 	// 1037. Valid Boomerang
-	fmt.Println("1037. Valid Boomerang", solution.IsBoomerang([][]int{{1, 1}, {2, 2}, {3, 3}}))
+	//fmt.Println("1037. Valid Boomerang", solution.IsBoomerang([][]int{{1, 1}, {2, 2}, {3, 3}}))
 	// 1232. Check If It Is a Straight Line
 	//fmt.Println("1232. Check If It Is a Straight Line", solution.CheckStraightLine([][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}}))
 	// 1356. Sort Integers by The Number of 1 Bits
 	// 1351. Count Negative Numbers in a Sorted Matrix
-	fmt.Println("1351. Count Negative Numbers in a Sorted Matrix", solution.CountNegatives([][]int{{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}}))
+	//fmt.Println("1351. Count Negative Numbers in a Sorted Matrix", solution.CountNegatives([][]int{{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}}))
 	//fmt.Println("1356. Sort Integers by The Number of 1 Bits", solution.SortByBits([]int{0, 1, 2, 3, 4, 5, 6, 7, 8}))
 	// 1588. Sum of All Odd Lengths
 	//fmt.Println(solution.SumOddLengthSubarrays([]int{1, 4, 2, 5, 3}))
@@ -477,7 +479,7 @@ func main() {
 	// 2427. Number of Common Factors
 	//fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
 	// 2529. Maximum Count of Positive Integer and Negative Integer
-	fmt.Println("2529. Maximum Count of Positive Integer and Negative Integer", solution.MaximumCount([]int{-3, -2, -1, 0, 0, 1, 2}))
+	//fmt.Println("2529. Maximum Count of Positive Integer and Negative Integer", solution.MaximumCount([]int{-3, -2, -1, 0, 0, 1, 2}))
 	// 2708. Maximum Strength Of a Group
 	//fmt.Println(solution.MaxStrength([]int{3, -1, -5, 2, 5, -9}))
 	// 2733. Find Neither Minimum nor Maximum
