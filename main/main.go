@@ -450,6 +450,8 @@ func main() {
 	//fmt.Println("938. Range Sum of BST", solution.RangeSumBST(s, 7, 15))
 	// 965. Univalued Binary Tree
 	//fmt.Println("965. Univalued Binary Tree", solution.IsUnivalTree(p))
+	// 977. Squares of a Sorted Array
+	fmt.Println("977. Squares of a Sorted Array", solution.SortedSquares([]int{-7, -3, 2, 3, 11}))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1005. Maximize Sum Of Array After K Negations
