@@ -376,6 +376,10 @@ func main() {
 	fmt.Println("141. Linked List Cycle", solution.HasCycle(head))
 	// 142. Linked List Cycle 2
 	fmt.Println("142. Linked List Cycle", solution.DetectCycle(head))
+	// 144. Preorder Traversal
+	fmt.Println("144. Preorder Traversal", solution.PreorderTraversal(p))
+	// 145. Postorder Traversal
+	fmt.Println("145. Postorder Traversal", solution.PostorderTraversal(p))
 	// 168. Excel Sheet Column Title
 	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 171. Excel Sheet Column Number
@@ -385,9 +389,9 @@ func main() {
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
 	// 202. Happy Number
-	fmt.Println("202. Happy Number", solution.IsHappy(19))
+	//fmt.Println("202. Happy Number", solution.IsHappy(19))
 	// 204. Count Primes
-	fmt.Println("204. Count Primes", solution.CountPrimes(10))
+	//fmt.Println("204. Count Primes", solution.CountPrimes(10))
 	// 206. Reverse Linked List
 	//fmt.Println(solution.ReverseList(head))
 	// 215. Kth Largest Element in an Array
@@ -413,7 +417,7 @@ func main() {
 	// 268. Missing Number
 	//fmt.Println("268. Missing Number", solution.MissingNumber([]int{0, 1}))
 	// 279. Perfect Squares
-	fmt.Println(solution.NumSquares(13))
+	//fmt.Println(solution.NumSquares(13))
 	// 287. Find the Duplicate Number
 	//fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
 	// 367. Is Perfect Square
@@ -443,7 +447,7 @@ func main() {
 	// 680. Valid Palindrome 2
 	//fmt.Println("680. Valid Palindrome 2", solution.ValidPalindrome("abdb_a"))
 	// 704. Binary Search
-	fmt.Println("704. Binary Search", solution.BinarySearch([]int{-1, 0, 3, 5, 9, 12}, 9))
+	//fmt.Println("704. Binary Search", solution.BinarySearch([]int{-1, 0, 3, 5, 9, 12}, 9))
 	// 929. Unique Email Addresses
 	//fmt.Println("929. Unique Email Addresses", solution.NomUniqueEmails([]string{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"}))
 	// 938. Range Sum of BST
@@ -451,7 +455,7 @@ func main() {
 	// 965. Univalued Binary Tree
 	//fmt.Println("965. Univalued Binary Tree", solution.IsUnivalTree(p))
 	// 977. Squares of a Sorted Array
-	fmt.Println("977. Squares of a Sorted Array", solution.SortedSquares([]int{-7, -3, 2, 3, 11}))
+	//fmt.Println("977. Squares of a Sorted Array", solution.SortedSquares([]int{-7, -3, 2, 3, 11}))
 	// 989. Add to Array Form
 	//fmt.Println(solution.AddToArrayForm([]int{1, 2, 0, 0}, 34))
 	// 1005. Maximize Sum Of Array After K Negations
