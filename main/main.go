@@ -440,6 +440,8 @@ func main() {
 	//fmt.Println(solution.CheckInclusion("ad", "eidbaooo"))
 	// 627. Merge Two Binary Trees
 	//fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
+	// 628. Maximum Product of Three Numbers
+	fmt.Println("628. Maximum Product of Three Numbers", solution.MaximumProduct([]int{-1, -2, -3}))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 637. Average of Levels in Binary Tree
