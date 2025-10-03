@@ -255,7 +255,6 @@ func main() {
 			},
 		},
 	}
-
 	t := &solution.Node{
 		Val: 10,
 		Left: &solution.Node{
@@ -280,7 +279,6 @@ func main() {
 			},
 		},
 	}
-
 	// 90. Subsets 2
 	//fmt.Println(solution.SubsetsWithDup([]int{1, 2, 2}))
 	// 91. Decode Ways
@@ -380,6 +378,8 @@ func main() {
 	fmt.Println("144. Preorder Traversal", solution.PreorderTraversal(p))
 	// 145. Postorder Traversal
 	fmt.Println("145. Postorder Traversal", solution.PostorderTraversal(p))
+	// 151. Reverse Words
+	fmt.Println("151. Reverse Words", solution.ReverseWords("the beauty is you"))
 	// 168. Excel Sheet Column Title
 	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 171. Excel Sheet Column Number
