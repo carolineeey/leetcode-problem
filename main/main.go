@@ -488,6 +488,8 @@ func main() {
 	//fmt.Println("2194. Cells in a Range on an Excel Sheet", solution.CellsInRange("K1:L2"))
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
+	// 2404. Most Frequent Even Element
+	fmt.Println("2404. Most Frequent Even Element", solution.MostFrequentEven([]int{0, 1, 2, 2, 4, 4, 1}))
 	// 2427. Number of Common Factors
 	//fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
 	// 2529. Maximum Count of Positive Integer and Negative Integer
