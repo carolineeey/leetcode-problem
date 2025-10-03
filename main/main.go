@@ -384,6 +384,8 @@ func main() {
 	fmt.Println("152. Maximum Product Subarray", solution.MaxProduct([]int{2, 0}))
 	// 168. Excel Sheet Column Title
 	//fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
+	// 169. Majority Element
+	fmt.Println("169. Majority Element", solution.MajorityElement([]int{2, 2, 1, 1, 1, 2, 2}))
 	// 171. Excel Sheet Column Number
 	//fmt.Println("171. Excel Sheet Column Number", solution.TitleToNumber("AB"))
 	// 188. Best Time to Buy and Sell Stock 4
@@ -441,7 +443,7 @@ func main() {
 	// 627. Merge Two Binary Trees
 	//fmt.Println("627. Merge Two Binary Trees", solution.MergeTrees(p, q))
 	// 628. Maximum Product of Three Numbers
-	fmt.Println("628. Maximum Product of Three Numbers", solution.MaximumProduct([]int{-1, -2, -3}))
+	//fmt.Println("628. Maximum Product of Three Numbers", solution.MaximumProduct([]int{-1, -2, -3}))
 	// 633. Sum of Square Numbers
 	//fmt.Println(solution.JudgeSquareSum(26))
 	// 637. Average of Levels in Binary Tree
