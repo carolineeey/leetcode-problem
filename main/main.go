@@ -380,10 +380,12 @@ func main() {
 	fmt.Println("145. Postorder Traversal", solution.PostorderTraversal(p))
 	// 151. Reverse Words
 	fmt.Println("151. Reverse Words", solution.ReverseWords("the beauty is you"))
+	// 152. Maximum Product Subarray
+	fmt.Println("152. Maximum Product Subarray", solution.MaxProduct([]int{2, 0}))
 	// 168. Excel Sheet Column Title
-	fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
+	//fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 171. Excel Sheet Column Number
-	fmt.Println("171. Excel Sheet Column Number", solution.TitleToNumber("AB"))
+	//fmt.Println("171. Excel Sheet Column Number", solution.TitleToNumber("AB"))
 	// 188. Best Time to Buy and Sell Stock 4
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
