@@ -402,6 +402,8 @@ func main() {
 	//fmt.Println("215. Kth Largest Element in an Array", solution.FindKthLargest([]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4))
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
+	// 229. Majority Element 2
+	fmt.Println("229. Majority Element 2", solution.MajorityElement2([]int{3, 2, 3}))
 	// 234. Palindrome Linked List
 	//solution.IsPalindromeLinkedList(head)
 	// 240. Search 2D Matrix 2
