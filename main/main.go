@@ -364,6 +364,8 @@ func main() {
 	fmt.Println("128. Longest Consecutive Sequence", solution.LongestConsecutive2([]int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}))
 	// 129. Sum Root to Leaf Numbers
 	fmt.Println("129. Sum Root to Leaf Numbers", solution.SumNumbers(r))
+	// 130. Surrounded Regions
+	solution.Solve([][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}})
 	// 136. Single Number
 	fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
 	// 137. Single Number 2
@@ -377,15 +379,15 @@ func main() {
 	// 144. Preorder Traversal
 	fmt.Println("144. Preorder Traversal", solution.PreorderTraversal(p))
 	// 145. Postorder Traversal
-	fmt.Println("145. Postorder Traversal", solution.PostorderTraversal(p))
+	//fmt.Println("145. Postorder Traversal", solution.PostorderTraversal(p))
 	// 151. Reverse Words
-	fmt.Println("151. Reverse Words", solution.ReverseWords("the beauty is you"))
+	//fmt.Println("151. Reverse Words", solution.ReverseWords("the beauty is you"))
 	// 152. Maximum Product Subarray
-	fmt.Println("152. Maximum Product Subarray", solution.MaxProduct([]int{2, 0}))
+	//fmt.Println("152. Maximum Product Subarray", solution.MaxProduct([]int{2, 0}))
 	// 168. Excel Sheet Column Title
 	//fmt.Println("168. Excel Sheet Column Title", solution.ConvertToTitle(701))
 	// 169. Majority Element
-	fmt.Println("169. Majority Element", solution.MajorityElement([]int{2, 2, 1, 1, 1, 2, 2}))
+	//fmt.Println("169. Majority Element", solution.MajorityElement([]int{2, 2, 1, 1, 1, 2, 2}))
 	// 171. Excel Sheet Column Number
 	//fmt.Println("171. Excel Sheet Column Number", solution.TitleToNumber("AB"))
 	// 188. Best Time to Buy and Sell Stock 4
@@ -403,7 +405,7 @@ func main() {
 	// 221. Maximal Square
 	//fmt.Println(solution.MaximalSquare([][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}))
 	// 229. Majority Element 2
-	fmt.Println("229. Majority Element 2", solution.MajorityElement2([]int{3, 2, 3}))
+	//fmt.Println("229. Majority Element 2", solution.MajorityElement2([]int{3, 2, 3}))
 	// 234. Palindrome Linked List
 	//solution.IsPalindromeLinkedList(head)
 	// 240. Search 2D Matrix 2
@@ -427,7 +429,7 @@ func main() {
 	// 287. Find the Duplicate Number
 	//fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
 	// 347. Top K Frequent Element
-	fmt.Println("347. Top K Frequent Element", solution.TopKFrequent([]int{1, 1, 1, 2, 2, 3}, 2))
+	//fmt.Println("347. Top K Frequent Element", solution.TopKFrequent([]int{1, 1, 1, 2, 2, 3}, 2))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 389. Find The Difference
@@ -493,7 +495,7 @@ func main() {
 	// 2236. Root Equals Sum of Children
 	//fmt.Println("2236. Root Equals Sum of Children", solution.CheckTree(r))
 	// 2404. Most Frequent Even Element
-	fmt.Println("2404. Most Frequent Even Element", solution.MostFrequentEven([]int{0, 1, 2, 2, 4, 4, 1}))
+	//fmt.Println("2404. Most Frequent Even Element", solution.MostFrequentEven([]int{0, 1, 2, 2, 4, 4, 1}))
 	// 2427. Number of Common Factors
 	//fmt.Println("2427. Number of Common Factors", solution.CommonFactors(12, 6))
 	// 2529. Maximum Count of Positive Integer and Negative Integer
