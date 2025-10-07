@@ -394,6 +394,8 @@ func main() {
 	//fmt.Println("max profit 4", solution.MaxProfit4(2, []int{3, 2, 6, 5, 0, 3}))
 	// 189. Rotate Array
 	//solution.RotateArray([]int{1, 2, 3, 4, 5, 6, 7}, 3)
+	// 200. Num of Islands
+	fmt.Println("200. Num of Islands", solution.NumIslands([][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}}))
 	// 202. Happy Number
 	//fmt.Println("202. Happy Number", solution.IsHappy(19))
 	// 204. Count Primes
