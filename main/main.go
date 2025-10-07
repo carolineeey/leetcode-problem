@@ -426,6 +426,8 @@ func main() {
 	//fmt.Println(solution.NumSquares(13))
 	// 287. Find the Duplicate Number
 	//fmt.Println("287. Find the Duplicate Number", solution.FindDuplicate([]int{1, 3, 4, 2, 2}))
+	// 347. Top K Frequent Element
+	fmt.Println("347. Top K Frequent Element", solution.TopKFrequent([]int{1, 1, 1, 2, 2, 3}, 2))
 	// 367. Is Perfect Square
 	//fmt.Println(solution.IsPerfectSquare(12))
 	// 389. Find The Difference
