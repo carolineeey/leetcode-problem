@@ -315,13 +315,13 @@ func main() {
 	// 100. Tree Node
 	solution.IsSameTree(p, q)
 	// 101. Symmetric Tree
-	fmt.Println("101. Symmetric Tree", solution.IsSymmetric(p))
+	//fmt.Println("101. Symmetric Tree", solution.IsSymmetric(p))
 	// 102. Binary Tree Level Order Traversal
-	fmt.Println("102. Binary Tree Level Order Traversal", solution.LevelOrder(p))
+	//fmt.Println("102. Binary Tree Level Order Traversal", solution.LevelOrder(p))
 	// 104. Maximum Depth of Binary Tree
-	fmt.Println("104. Maximum Depth of Binary Tree", solution.MaxDepth(p))
+	//fmt.Println("104. Maximum Depth of Binary Tree", solution.MaxDepth(p))
 	// 105. Construct Binary Tree from Preorder and Inorder Traversal
-	fmt.Println("105. Construct Binary Tree from Preorder and Inorder Traversal", solution.BuildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}))
+	//fmt.Println("105. Construct Binary Tree from Preorder and Inorder Traversal", solution.BuildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}))
 	// 106. Construct Binary Tree from Inorder and Postorder Traversal
 	fmt.Println("106. Construct Binary Tree from Inorder and Postorder Traversal", solution.BuildTreeTraversal([]int{9, 3, 15, 20, 7}, []int{9, 15, 7, 20, 3}))
 	// 107. Binary Tree Level Order Traversal II
@@ -365,11 +365,11 @@ func main() {
 	// 129. Sum Root to Leaf Numbers
 	fmt.Println("129. Sum Root to Leaf Numbers", solution.SumNumbers(r))
 	// 130. Surrounded Regions
-	solution.Solve([][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}})
+	//solution.Solve([][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}})
 	// 136. Single Number
-	fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
+	//fmt.Println("136. Single Number", solution.SingleNumber([]int{4, 1, 2, 1, 2}))
 	// 137. Single Number 2
-	fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
+	//fmt.Println("137. Single Number 2", solution.SingleNumber2([]int{4, 1, 1, 2, 2, 1, 2}))
 	// 139. Word Break
 	fmt.Println("139. Word Break", solution.WordBreak("catsandog", []string{"cats", "dog", "sand", "and", "cat"}))
 	// 141. Linked List Cycle
